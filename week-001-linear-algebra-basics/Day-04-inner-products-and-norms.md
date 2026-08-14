@@ -9,9 +9,9 @@ orthogonality, and distinguish length from squared length and distance.
 
 For $x,y\in\mathbb{R}^n$, the inner product is
 
-\[
+$$
 x^Ty=\sum_{i=1}^n x_i y_i.
-\]
+$$
 
 The result is a scalar. Its sign contains geometric information:
 
@@ -25,35 +25,35 @@ The sign interpretation assumes both vectors are nonzero.
 
 The Euclidean norm is
 
-\[
+$$
 \lVert x\rVert_2=\sqrt{x^Tx}
 =\sqrt{x_1^2+\cdots+x_n^2}.
-\]
+$$
 
 Thus $x^Tx=\lVert x\rVert_2^2$, the **squared** norm. Confusing these two is a
 common source of errors.
 
 The norm satisfies:
 
-\[
+$$
 \lVert x\rVert_2\ge0,\qquad
 \lVert x\rVert_2=0\iff x=0,\qquad
 \lVert cx\rVert_2=|c|\lVert x\rVert_2.
-\]
+$$
 
 ## 3. Distance and normalization
 
 The Euclidean distance between $x$ and $y$ is
 
-\[
+$$
 \lVert x-y\rVert_2.
-\]
+$$
 
 For $x\ne0$, the normalized vector
 
-\[
+$$
 u=\frac{x}{\lVert x\rVert_2}
-\]
+$$
 
 has unit norm. It preserves direction while removing magnitude.
 
@@ -61,9 +61,9 @@ has unit norm. It preserves direction while removing magnitude.
 
 Let $x=[3,4]^T$ and $y=[-4,3]^T$. Then
 
-\[
+$$
 x^Ty=3(-4)+4(3)=0,
-\]
+$$
 
 so they are orthogonal. Also $\lVert x\rVert_2=5$, and the unit vector in the
 direction of $x$ is $[3/5,4/5]^T$.
