@@ -9,36 +9,36 @@ can be formed from given vectors, and explain span as a set of reachable vectors
 
 Given vectors $v_1,\ldots,v_k\in\mathbb{R}^n$, a **linear combination** is
 
-$$
+```math
 c_1v_1+\cdots+c_kv_k,
-$$
+```
 
 where $c_1,\ldots,c_k\in\mathbb{R}$. The coefficients may be positive, negative,
 or zero. All $v_i$ must lie in the same vector space so the sum is defined.
 
 Example:
 
-$$
+```math
 2\begin{bmatrix}1\\0\end{bmatrix}
 -3\begin{bmatrix}0\\1\end{bmatrix}
 =\begin{bmatrix}2\\-3\end{bmatrix}.
-$$
+```
 
 ## 2. Span
 
 The **span** of $v_1,\ldots,v_k$ is the set of every linear combination of them:
 
-$$
+```math
 \operatorname{span}(v_1,\ldots,v_k)
 =\{c_1v_1+\cdots+c_kv_k\mid c_i\in\mathbb{R}\}.
-$$
+```
 
 Membership is an existence question. To show that $b$ belongs to the span, find
 coefficients satisfying
 
-$$
+```math
 c_1v_1+\cdots+c_kv_k=b.
-$$
+```
 
 To show that it does not, derive an inconsistency from the corresponding scalar
 equations.
@@ -47,26 +47,26 @@ equations.
 
 Vectors are **linearly dependent** if some nonzero coefficients satisfy
 
-$$
+```math
 c_1v_1+\cdots+c_kv_k=0.
-$$
+```
 
 This means at least one vector is redundant in generating the span. For example,
 $[1,1]^T$ and $[2,2]^T$ are dependent because
 
-$$
+```math
 2\begin{bmatrix}1\\1\end{bmatrix}
 -\begin{bmatrix}2\\2\end{bmatrix}=0.
-$$
+```
 
 ## Worked example
 
 Does $b=[7,1]^T$ lie in the span of $v_1=[1,1]^T$ and
 $v_2=[2,-1]^T$? We solve
 
-$$
+```math
 c_1+2c_2=7,\qquad c_1-c_2=1.
-$$
+```
 
 The second equation gives $c_1=1+c_2$. Substitution gives $3c_2=6$, so
 $c_2=2$ and $c_1=3$. Therefore $b=3v_1+2v_2$, and membership is proved.

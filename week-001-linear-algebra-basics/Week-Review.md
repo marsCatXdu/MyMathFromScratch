@@ -17,17 +17,17 @@ Without reopening the lessons, answer briefly:
 ## Part B — Cumulative problems
 
 1. Let
-   $$
+   ```math
    A=\begin{bmatrix}1&2\\-1&1\\2&0\end{bmatrix},\qquad
    x=\begin{bmatrix}a\\b\end{bmatrix}.
-   $$
+   ```
    State dimensions, express $Ax$ as a combination of columns, and expand it
    componentwise.
 2. Find $x$ such that
-   $$
+   ```math
    \begin{bmatrix}1&1\\2&-1\end{bmatrix}x
    =\begin{bmatrix}4\\5\end{bmatrix}.
-   $$
+   ```
    Verify the result.
 3. For $u=[1,2,-1]^T$ and $v=[2,0,2]^T$, compute $u^Tv$, $\lVert u\rVert_2$,
    and $\lVert u-v\rVert_2$. Are $u$ and $v$ orthogonal?

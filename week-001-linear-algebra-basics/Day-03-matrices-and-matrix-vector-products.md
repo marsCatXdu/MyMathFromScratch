@@ -9,13 +9,13 @@ compute $Ax$, and interpret it as a linear combination of the columns of $A$.
 
 An $m\times n$ matrix has $m$ rows and $n$ columns:
 
-$$
+```math
 A=\begin{bmatrix}
 a_{11}&\cdots&a_{1n}\\
 \vdots&&\vdots\\
 a_{m1}&\cdots&a_{mn}
 \end{bmatrix}\in\mathbb{R}^{m\times n}.
-$$
+```
 
 The entry $a_{ij}$ is in row $i$, column $j$. If $x\in\mathbb{R}^n$, then
 $Ax\in\mathbb{R}^m$. The inner dimension $n$ must agree.
@@ -26,9 +26,9 @@ $Ax\in\mathbb{R}^m$. The inner dimension $n$ must agree.
 
 The $i$-th component of $Ax$ is
 
-$$
+```math
 (Ax)_i=\sum_{j=1}^n a_{ij}x_j.
-$$
+```
 
 It combines row $i$ with all components of $x$.
 
@@ -36,9 +36,9 @@ It combines row $i$ with all components of $x$.
 
 If $A=[a_1\ a_2\ \cdots\ a_n]$, where each $a_j\in\mathbb{R}^m$, then
 
-$$
+```math
 Ax=x_1a_1+x_2a_2+\cdots+x_na_n.
-$$
+```
 
 This connects matrix multiplication directly to linear combinations and span.
 
@@ -46,9 +46,9 @@ This connects matrix multiplication directly to linear combinations and span.
 
 For compatible vectors $x,y$ and scalar $c$,
 
-$$
+```math
 A(x+y)=Ax+Ay,\qquad A(cx)=c(Ax).
-$$
+```
 
 Together these give $A(cx+dy)=cAx+dAy$. This is why a matrix represents a
 linear transformation.
@@ -57,18 +57,18 @@ linear transformation.
 
 Let
 
-$$
+```math
 A=\begin{bmatrix}1&2\\3&-1\\0&4\end{bmatrix},\qquad
 x=\begin{bmatrix}2\\-1\end{bmatrix}.
-$$
+```
 
 Then $A\in\mathbb{R}^{3\times2}$, $x\in\mathbb{R}^2$, and $Ax\in\mathbb{R}^3$:
 
-$$
+```math
 Ax=2\begin{bmatrix}1\\3\\0\end{bmatrix}
 -\begin{bmatrix}2\\-1\\4\end{bmatrix}
 =\begin{bmatrix}0\\7\\-4\end{bmatrix}.
-$$
+```
 
 ## Homework
 
@@ -80,10 +80,10 @@ $$
    3. $BAx$, $A\in\mathbb{R}^{3\times2}$,
       $B\in\mathbb{R}^{5\times3}$, $x\in\mathbb{R}^2$
 2. Compute $Ax$ using both the row and column views for
-   $$
+   ```math
    A=\begin{bmatrix}2&-1\\0&3\end{bmatrix},\qquad
    x=\begin{bmatrix}4\\2\end{bmatrix}.
-   $$
+   ```
 3. Let $A=[a_1\ a_2\ a_3]$ and $x=[2,0,-1]^T$. Express $Ax$ using the
    columns without expanding their components.
 4. Construct a $2\times2$ matrix $A$ such that
