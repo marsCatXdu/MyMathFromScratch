@@ -106,12 +106,33 @@ Each intermediate vector is in ℝ³, so the subtraction is well-defined.
 
 ## My work
 
-Write your calculations here.
+1. Compute:
+   1. $x+y=[2, 2, 3]^T$
+   2. $3x=[9, -6, 3]^T$
+   3. $2x-y=[7, -8, 0]^T$
+2. Defined or not:
+   1. Undefined. Dimension mismatch (3 vs 1)
+   2. Defined. Scalar times a vector
+   3. Undefined. Dimension mismatch (3 vs 4)
+   4. Defined. Dimension match
+3. $[5, 0, -2]^T=5e_1+0e_2+(-2)e^3$
+4. Scalar equations: $a+b=5, 2a-b=1$, then we have $a=2, b=3$
+5. $y=0$, it must be a zero vector 
 
 ## My reasoning
 
 For Problems 2, 4, and 5, explain why each conclusion follows.
 
+2. Addition operation with 2 vectors must have identical dimension. Multiply a scalar with a vector is defined, it's simply scaling an existing vector. 
+
+4. For 2D vectors, the resulting vector is the sum (can we call it combination?) of two **scaled** vectors, as long as all vectors have the same dimension and they are not in the same line (is it called linear independent?), we can get the result by scaling the two 'component' vectors. I remember there were some terms to describe this but I forgot - the combination of scaled 'component' vectors can fill up the whole space, or a subspace. 
+5. A vector stays unchanged after an addition, meaning all values on each of its dimension added nothing, so it shall be added with a zero vector. 
+
+
+
 ## Confusions and questions
 
 Record unclear notation or steps, even if you obtained the correct answer.
+
+1. The 'i-th standard basis vector' written as $e_i\in \mathbb{R}$ is a convention?  
+2. Are the addition of two vectors, multiplication of a number with a vector, called linear combination? 
