@@ -87,20 +87,17 @@ Each intermediate vector is in ℝ³, so the subtraction is well-defined.
    1. $x+y$
    2. $3x$
    3. $2x-y$
-2. State whether each expression is defined. Give its type or explain the exact
-   mismatch.
+2. State whether each expression is defined. Give its type or explain the exact mismatch.
    1. $x+a$, where $x\in\mathbb{R}^3$, $a\in\mathbb{R}$
    2. $ax$, where $x\in\mathbb{R}^3$, $a\in\mathbb{R}$
    3. $x+y$, where $x\in\mathbb{R}^3$, $y\in\mathbb{R}^4$
    4. $x-y$, where $x,y\in\mathbb{R}^3$
 3. Write $[5,0,-2]^T$ using $e_1,e_2,e_3$.
-4. Find $a,b\in\mathbb{R}$ if
-   $a[1,2]^T+b[1,-1]^T=[5,1]^T$. Show the two scalar equations you use.
+4. Find $a,b\in\mathbb{R}$ if $a[1,2]^T+b[1,-1]^T=[5,1]^T$. Show the two scalar equations you use.
 
 ### Diagnostic challenge
 
-5. Suppose $x,y\in\mathbb{R}^n$ and $x+y=x$. What must $y$ be? Justify the
-   conclusion without testing examples.
+5. Suppose $x,y\in\mathbb{R}^n$ and $x+y=x$. What must $y$ be? Justify the conclusion without testing examples.
 
 ---
 
@@ -180,11 +177,25 @@ object's type from its dimension and stating conclusions with precise notation.
 
 ## Corrections I should retain
 
-Before beginning Day 2, add your corrections below without deleting the original
-answers:
+Before beginning Day 2, add your corrections below without deleting the original answers:
 
-1. Rewrite all four parts of Problem 2, distinguishing scalar/vector **type**
-   from vector **dimension** and stating the result space when defined.
+1. Rewrite all four parts of Problem 2, distinguishing scalar/vector **type** from vector **dimension** and stating the result space when defined.
 2. Rewrite the proof for Problem 5 componentwise in your own words.
-3. Write the third standard basis vector of $\mathbb{R}^4$ explicitly and state
-   its type.
+3. Write the third standard basis vector of $\mathbb{R}^4$ explicitly and state its type.
+
+----
+
+## Corrections
+
+Problem 2:
+
+1. Undefined. Dimension mismatch. Vector addition requires two operands in the same dimension. 
+2. Defined. Result type is a vector in $\mathbb{R}^3$. It's scaling a vector with a scalar. 
+3.  Undefined. Dimension mismatch. Vector addition requires two operands in the same dimension. 
+4. Defined. Result type is a vector in $\mathbb{R}^3$. 
+
+Problem 5: $y$ must be a $n$-dimension zero vector.  $\forall x\in\mathbb{R}^n$ , for each of its component $x_i$, only $x_i + 0=x_i$.  
+
+
+
+The third standard basis vector of $\mathbb{R}^4$ : $e_3\in \mathbb{R}^4, e_3=[0, 0, 1, 0]^T$. Its type is a 4-dimension vector. 
