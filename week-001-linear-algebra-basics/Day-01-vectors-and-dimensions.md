@@ -207,3 +207,14 @@ The third standard basis vector of $\mathbb{R}^4$ : $e_3\in \mathbb{R}^4, e_3=[0
 3. **Standard basis vector:** Correct. Prefer “a vector in $\mathbb{R}^4$” or “a four-dimensional vector” for the type description.
 
 **Decision:** Remain at **Developing**. Revise only Problem 2.1 and the Problem 5 proof; after those two corrections, begin Day 2.
+
+### Corrections 2:
+
+Problem 2.1: Undefined. for $a\in \mathbb{R}$, it's a scalar, not a vector. The vector addition is not defined for a vector and a scalar operands. 
+
+Problem 5:
+$$
+x, y\in \mathbb{R}^n, \\
+x+y=x, \\
+\text{substract }x \text{on both sides, therefore}: y=0, \text{where } y\in \mathbb{R}^n
+$$
