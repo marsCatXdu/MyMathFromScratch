@@ -115,7 +115,7 @@ Each intermediate vector is in ℝ³, so the subtraction is well-defined.
    2. Defined. Scalar times a vector
    3. Undefined. Dimension mismatch (3 vs 4)
    4. Defined. Dimension match
-3. $[5, 0, -2]^T=5e_1+0e_2+(-2)e^3$
+3. $[5, 0, -2]^T=5e_1+0e_2+(-2)e_3$
 4. Scalar equations: $a+b=5, 2a-b=1$, then we have $a=2, b=3$
 5. $y=0$, it must be a zero vector 
 
