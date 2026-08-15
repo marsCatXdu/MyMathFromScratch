@@ -218,3 +218,10 @@ x, y\in \mathbb{R}^n, \\
 x+y=x, \\
 \text{substract }x \text{on both sides, therefore}: y=0, \text{where } y\in \mathbb{R}^n
 $$
+
+### Final correction review — 2026-08-15
+
+1. **Problem 2.1:** Accepted. You now identify $x$ as a vector and $a$ as a scalar and correctly explain that ordinary vector addition is not defined between those operand types.
+2. **Problem 5:** Accepted. Subtracting the vector $x$ from both sides is valid and gives $y=0$. Writing “$0\in\mathbb{R}^n$ is the zero vector” would state the result's type more directly, but no further correction is required.
+
+**Decision:** The Day 1 corrections are complete. The topic remains **Developing** because the corrected distinctions were learned with feedback and still need independent retrieval evidence. Begin Day 2.
