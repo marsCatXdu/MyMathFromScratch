@@ -199,3 +199,11 @@ Problem 5: $y$ must be a $n$-dimension zero vector.  $\forall x\in\mathbb{R}^n$ 
 
 
 The third standard basis vector of $\mathbb{R}^4$ : $e_3\in \mathbb{R}^4, e_3=[0, 0, 1, 0]^T$. Its type is a 4-dimension vector. 
+
+### Correction review — 2026-08-15
+
+1. **Problem 2:** Parts 2.2, 2.3, and 2.4 are now correct. Part 2.1 is not yet corrected: $x$ is a vector and $a$ is a scalar, so the failure occurs before dimensions can be compared. Calling it a dimension mismatch repeats the original type error.
+2. **Problem 5:** The conclusion remains correct, but the proof does not yet use the given equation. The statement “only $x_i+0=x_i$” assumes the component added to $x_i$ is already zero. Start from $x_i+y_i=x_i$ and state the algebraic operation applied to both sides to determine $y_i$. The quantifier $\forall x\in\mathbb{R}^n$ is unnecessary because the problem concerns the given $x$ and $y$.
+3. **Standard basis vector:** Correct. Prefer “a vector in $\mathbb{R}^4$” or “a four-dimensional vector” for the type description.
+
+**Decision:** Remain at **Developing**. Revise only Problem 2.1 and the Problem 5 proof; after those two corrections, begin Day 2.
