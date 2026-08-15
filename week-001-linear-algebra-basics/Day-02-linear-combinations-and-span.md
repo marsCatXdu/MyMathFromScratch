@@ -100,3 +100,37 @@ Explain what each computed coefficient says about span or dependence.
 Record any point where solving equations and interpreting span became disconnected.
 
 - Only confused about the prove. 
+
+---
+
+## Review
+
+### Assessment
+
+**Developing.** All six conclusions are correct, and the equation solving is accurate. You can construct linear combinations, test span membership, recognize non-uniqueness, prove non-membership by inconsistency, and exhibit a nontrivial dependence relation. The remaining weakness is precision when interpreting the algebra: coefficients are not vectors in the span, and the denominator in Problem 6 must be connected explicitly to the assumption that the two vectors are not scalar multiples.
+
+### Problem feedback
+
+1. Correct. The coefficients are $4$ and $-5$, so $[4,-5]^T=4e_1-5e_2$.
+2. Correct. Your equations give coefficients $4$ and $-1$, which proves that $[3,5]^T$ belongs to the stated span.
+3. Correct. The two scalar equations are equivalent, leaving one free coefficient. Your relation $a=1-2c$ describes infinitely many representations.
+4. Correct. The same expression $a+2b$ would have to equal both $1$ and $0$, so the equations are inconsistent and $[1,0]^T$ is outside the span.
+5. Correct. The choice $(a,b,c)=(1,1,-1)$ is not the all-zero coefficient triple and satisfies $a[1,0]^T+b[0,1]^T+c[1,1]^T=0$, proving linear dependence.
+6. The conclusion and geometric idea are correct. Your component equations and formulas also nearly complete an algebraic proof. Let their common denominator be $D=x_uy_v-x_vy_u$. Because $u$ and $v$ are not scalar multiples, $D\ne0$; therefore the formulas determine one and only one pair $(c_1,c_2)$ for every target $b$. The missing step in the handwritten argument is stating why the hypothesis guarantees $D\ne0$.
+
+### Answers to your notes and questions
+
+Your comparison with elimination is useful but should be stated more precisely: a dependence proof constructs a nontrivial linear combination in which the vectors cancel to the zero vector. Elimination is one possible algebraic method for finding such coefficients; cancellation to zero is the defining condition.
+
+In the span explanation, the resulting vector lies in the span, not the coefficient set. A precise version is: “Each choice of coefficients produces a linear combination, and that resulting vector belongs to the span.”
+
+For Problem 6, your parallelogram description is an acceptable intuition: two nonparallel directions can reach every point in the plane, and a target point fixes the two required scalings. Your formulas make this precise once you add the nonzero-denominator step above.
+
+## Corrections I should retain
+
+Before beginning Day 3, add these two short corrections without deleting the original work:
+
+1. Rewrite the sentence about coefficients and span so that it identifies which objects are scalars and which vector belongs to the span.
+2. Complete Problem 6 by explaining why $u$ and $v$ not being scalar multiples implies $x_uy_v-x_vy_u\ne0$.
+
+**Decision:** Make these two corrections, then begin Day 3. Independent retrieval during the Week 1 review will determine whether this topic can become Reliable.
