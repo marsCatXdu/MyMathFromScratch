@@ -54,6 +54,8 @@ This means at least one vector is redundant in generating the span. For example,
 -\begin{bmatrix}2\\2\end{bmatrix}=0.
 ```
 
+> Jingwei note: this way of proving linear dependent feels like kind of "elimination" by doing some linear combinations (scaling and addition).  
+
 ## Worked example
 
 Does $b=[7,1]^T$ lie in the span of $v_1=[1,1]^T$ and $v_2=[2,-1]^T$? We solve
@@ -82,12 +84,19 @@ The second equation gives $c_1=1+c_2$. Substitution gives $3c_2=6$, so $c_2=2$ a
 
 ## My work
 
-Write your equations and solutions here.
+![image-20260816012138306](./Day-02-linear-combinations-and-span.assets/image-20260816012138306.png)
+
+![image-20260816012200452](./Day-02-linear-combinations-and-span.assets/image-20260816012200452.png)
 
 ## My reasoning
 
 Explain what each computed coefficient says about span or dependence.
 
+- About span: the span is the set of all linear combinations, the linear combination of given vectors is determined by their coefficients (meaning how they scale). Each set of coefficients for a result of linear combination (a resulting vector) lies in the span. 
+- About dependence: Linear dependence means at least one of the vectors can be represented by a linear combination of others, with a set of coefficients. 
+
 ## Confusions and questions
 
 Record any point where solving equations and interpreting span became disconnected.
+
+- Only confused about the prove. 
