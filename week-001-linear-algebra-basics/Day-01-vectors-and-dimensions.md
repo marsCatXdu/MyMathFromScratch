@@ -136,3 +136,55 @@ Record unclear notation or steps, even if you obtained the correct answer.
 
 1. The 'i-th standard basis vector' written as $e_i\in \mathbb{R}$ is a convention?  
 2. Are the addition of two vectors, multiplication of a number with a vector, called linear combination? 
+
+---
+
+## Review
+
+### Assessment
+
+**Developing.** The computations in Problems 1, 3, and 4 are correct, and the
+conclusion in Problem 5 is correct. The main weakness is distinguishing an
+object's type from its dimension and stating conclusions with precise notation.
+
+### Problem feedback
+
+1. All three computations are correct.
+2. The defined/undefined conclusions are correct, but two details need revision:
+   - In 2.1, $a\in\mathbb{R}$ is a scalar, not a vector of dimension 1. Thus
+     $x+a$ has a **type mismatch**, not a dimension mismatch between 3 and 1.
+     Ordinary vector addition requires both operands to be vectors in the same
+     vector space.
+   - For each defined expression, the requested output type is missing. In 2.2
+     and 2.4, the result lies in $\mathbb{R}^3$.
+3. Correct. Including $0e_2$ is valid and makes every coordinate visible.
+4. The scalar equations and solution $a=2$, $b=3$ are correct. The expression
+   $a[1,2]^T+b[1,-1]^T$ is a **linear combination**. The two given vectors are
+   not scalar multiples, so they are **linearly independent**; in
+   $\mathbb{R}^2$, their linear combinations fill, or **span**, all of
+   $\mathbb{R}^2$. Independence explains why the representation is unique, but
+   it is not needed merely to write and solve the two scalar equations.
+5. The conclusion is correct, but the justification should be explicit. From
+   $x_i+y_i=x_i$ for every component $i$, subtract $x_i$ to obtain $y_i=0$ for
+   every $i$. Therefore $y$ is the zero vector in $\mathbb{R}^n$.
+
+### Answers to your questions
+
+1. $e_i$ is the conventional name for the $i$-th standard basis vector, but the
+   complete statement is $e_i\in\mathbb{R}^n$, not $e_i\in\mathbb{R}$. The
+   subscript $i$ identifies the position containing 1; the other components are
+   zero.
+2. Yes. A linear combination is any sum of scalar multiples
+   $c_1v_1+\cdots+c_kv_k$. Thus $x+y=1x+1y$ is a linear combination of $x$ and
+   $y$, and $ax$ is a linear combination containing one vector.
+
+## Corrections I should retain
+
+Before beginning Day 2, add your corrections below without deleting the original
+answers:
+
+1. Rewrite all four parts of Problem 2, distinguishing scalar/vector **type**
+   from vector **dimension** and stating the result space when defined.
+2. Rewrite the proof for Problem 5 componentwise in your own words.
+3. Write the third standard basis vector of $\mathbb{R}^4$ explicitly and state
+   its type.
