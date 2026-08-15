@@ -2,8 +2,7 @@
 
 ## Learning objectives
 
-You should be able to compute an inner product and Euclidean norm, interpret
-orthogonality, and distinguish length from squared length and distance.
+You should be able to compute an inner product and Euclidean norm, interpret orthogonality, and distinguish length from squared length and distance.
 
 ## 1. Inner product
 
@@ -30,8 +29,7 @@ The Euclidean norm is
 =\sqrt{x_1^2+\cdots+x_n^2}.
 ```
 
-Thus $x^Tx=\lVert x\rVert_2^2$, the **squared** norm. Confusing these two is a
-common source of errors.
+Thus $x^Tx=\lVert x\rVert_2^2$, the **squared** norm. Confusing these two is a common source of errors.
 
 The norm satisfies:
 
@@ -65,29 +63,24 @@ Let $x=[3,4]^T$ and $y=[-4,3]^T$. Then
 x^Ty=3(-4)+4(3)=0,
 ```
 
-so they are orthogonal. Also $\lVert x\rVert_2=5$, and the unit vector in the
-direction of $x$ is $[3/5,4/5]^T$.
+so they are orthogonal. Also $\lVert x\rVert_2=5$, and the unit vector in the direction of $x$ is $[3/5,4/5]^T$.
 
 ## Homework
 
 ### Core
 
-1. For $x=[1,-2,2]^T$, compute $x^Tx$ and $\lVert x\rVert_2$. State which is
-   squared length and which is length.
+1. For $x=[1,-2,2]^T$, compute $x^Tx$ and $\lVert x\rVert_2$. State which is squared length and which is length.
 2. For $x=[2,1]^T$ and $y=[-1,2]^T$:
    1. compute $x^Ty$;
    2. decide whether they are orthogonal;
    3. compute $\lVert x-y\rVert_2$.
 3. Normalize $v=[-3,4]^T$, then verify directly that the result has norm 1.
-4. Let $x,y\in\mathbb{R}^n$. Expand
-   $\lVert x-y\rVert_2^2$ in terms of $x^Tx$, $y^Ty$, and $x^Ty$.
-5. If $x^Ty=0$, use Problem 4 to show
-   $\lVert x-y\rVert_2^2=\lVert x\rVert_2^2+\lVert y\rVert_2^2$.
+4. Let $x,y\in\mathbb{R}^n$. Expand $\lVert x-y\rVert_2^2$ in terms of $x^Tx$, $y^Ty$, and $x^Ty$.
+5. If $x^Ty=0$, use Problem 4 to show $\lVert x-y\rVert_2^2=\lVert x\rVert_2^2+\lVert y\rVert_2^2$.
 
 ### Diagnostic challenge
 
-6. Find every vector $y=[a,b]^T$ that is orthogonal to $x=[2,3]^T$.
-   Describe the family with one free scalar parameter.
+6. Find every vector $y=[a,b]^T$ that is orthogonal to $x=[2,3]^T$. Describe the family with one free scalar parameter.
 
 ---
 

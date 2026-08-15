@@ -1,18 +1,15 @@
 # Week 1 Review
 
-Complete this after attempting all five sessions. This is evidence for designing
-Week 2, not a request for a polished retrospective.
+Complete this after attempting all five sessions. This is evidence for designing Week 2, not a request for a polished retrospective.
 
 ## Part A — Closed-book retrieval
 
 Without reopening the lessons, answer briefly:
 
-1. If $A\in\mathbb{R}^{m\times n}$ and $x\in\mathbb{R}^n$, what is the
-   dimension of $Ax$? Why?
-2. What does $b\in\operatorname{span}(v_1,v_2)$ mean operationally?
+1. If $A\in\mathbb{R}^{m\times n}$ and $x\in\mathbb{R}^n$, what is the dimension of $Ax$? Why?
+2. What does $b\in\mathrm{span}(v_1,v_2)$ mean operationally?
 3. State the difference between $x^Tx$ and $\lVert x\rVert_2$.
-4. Explain why solving $Ax=b$ is the same as asking whether $b$ lies in the
-   column span of $A$.
+4. Explain why solving $Ax=b$ is the same as asking whether $b$ lies in the column span of $A$.
 
 ## Part B — Cumulative problems
 
@@ -21,18 +18,15 @@ Without reopening the lessons, answer briefly:
    A=\begin{bmatrix}1&2\\-1&1\\2&0\end{bmatrix},\qquad
    x=\begin{bmatrix}a\\b\end{bmatrix}.
    ```
-   State dimensions, express $Ax$ as a combination of columns, and expand it
-   componentwise.
+   State dimensions, express $Ax$ as a combination of columns, and expand it componentwise.
 2. Find $x$ such that
    ```math
    \begin{bmatrix}1&1\\2&-1\end{bmatrix}x
    =\begin{bmatrix}4\\5\end{bmatrix}.
    ```
    Verify the result.
-3. For $u=[1,2,-1]^T$ and $v=[2,0,2]^T$, compute $u^Tv$, $\lVert u\rVert_2$,
-   and $\lVert u-v\rVert_2$. Are $u$ and $v$ orthogonal?
-4. Consider $v_1=[1,2]^T$ and $v_2=[2,4]^T$. Describe their span, give one
-   vector outside it, and justify both claims.
+3. For $u=[1,2,-1]^T$ and $v=[2,0,2]^T$, compute $u^Tv$, $\lVert u\rVert_2$, and $\lVert u-v\rVert_2$. Are $u$ and $v$ orthogonal?
+4. Consider $v_1=[1,2]^T$ and $v_2=[2,4]^T$. Describe their span, give one vector outside it, and justify both claims.
 
 ## Part C — Error audit
 

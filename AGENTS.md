@@ -47,6 +47,8 @@ Do not expose complete solutions before a serious attempt unless the learner exp
 
 Keep notation internally consistent and render mathematics using Markdown-compatible LaTeX. Define every new symbol. Check dimensions explicitly when introducing vectors, matrices, gradients, Hessians, or quadratic forms. Worked examples should show why each step is valid, but should not become mechanically verbose.
 
+Do not hard-wrap Markdown prose. Keep each paragraph and each list item on one physical source line; use line breaks only for structural Markdown, tables, and fenced math or code.
+
 Exercises should include routine computation, interpretation, error diagnosis, and at least one transfer problem. Difficulty should diagnose the current boundary of understanding rather than merely increase arithmetic workload.
 
 ### Retention

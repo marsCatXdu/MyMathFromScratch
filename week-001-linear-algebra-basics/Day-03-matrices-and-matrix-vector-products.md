@@ -2,8 +2,7 @@
 
 ## Learning objectives
 
-You should be able to read matrix dimensions, decide whether a product is defined,
-compute $Ax$, and interpret it as a linear combination of the columns of $A$.
+You should be able to read matrix dimensions, decide whether a product is defined, compute $Ax$, and interpret it as a linear combination of the columns of $A$.
 
 ## 1. Matrices and dimensions
 
@@ -17,8 +16,7 @@ a_{m1}&\cdots&a_{mn}
 \end{bmatrix}\in\mathbb{R}^{m\times n}.
 ```
 
-The entry $a_{ij}$ is in row $i$, column $j$. If $x\in\mathbb{R}^n$, then
-$Ax\in\mathbb{R}^m$. The inner dimension $n$ must agree.
+The entry $a_{ij}$ is in row $i$, column $j$. If $x\in\mathbb{R}^n$, then $Ax\in\mathbb{R}^m$. The inner dimension $n$ must agree.
 
 ## 2. Two equivalent views of $Ax$
 
@@ -50,8 +48,7 @@ For compatible vectors $x,y$ and scalar $c$,
 A(x+y)=Ax+Ay,\qquad A(cx)=c(Ax).
 ```
 
-Together these give $A(cx+dy)=cAx+dAy$. This is why a matrix represents a
-linear transformation.
+Together these give $A(cx+dy)=cAx+dAy$. This is why a matrix represents a linear transformation.
 
 ## Worked example
 
@@ -77,24 +74,19 @@ Ax=2\begin{bmatrix}1\\3\\0\end{bmatrix}
 1. For each product, state whether it is defined and give the output dimension:
    1. $Ax$, $A\in\mathbb{R}^{4\times3}$, $x\in\mathbb{R}^3$
    2. $Ax$, $A\in\mathbb{R}^{4\times3}$, $x\in\mathbb{R}^4$
-   3. $BAx$, $A\in\mathbb{R}^{3\times2}$,
-      $B\in\mathbb{R}^{5\times3}$, $x\in\mathbb{R}^2$
+   3. $BAx$, $A\in\mathbb{R}^{3\times2}$, $B\in\mathbb{R}^{5\times3}$, $x\in\mathbb{R}^2$
 2. Compute $Ax$ using both the row and column views for
    ```math
    A=\begin{bmatrix}2&-1\\0&3\end{bmatrix},\qquad
    x=\begin{bmatrix}4\\2\end{bmatrix}.
    ```
-3. Let $A=[a_1\ a_2\ a_3]$ and $x=[2,0,-1]^T$. Express $Ax$ using the
-   columns without expanding their components.
-4. Construct a $2\times2$ matrix $A$ such that
-   $A[x_1,x_2]^T=[x_1+x_2,\,x_1-x_2]^T$ for every $x$.
-5. Verify $A(x+y)=Ax+Ay$ numerically for one nontrivial choice of a $2\times2$
-   matrix and two vectors. Then explain why one example does not prove the identity.
+3. Let $A=[a_1\ a_2\ a_3]$ and $x=[2,0,-1]^T$. Express $Ax$ using the columns without expanding their components.
+4. Construct a $2\times2$ matrix $A$ such that $A[x_1,x_2]^T=[x_1+x_2,\,x_1-x_2]^T$ for every $x$.
+5. Verify $A(x+y)=Ax+Ay$ numerically for one nontrivial choice of a $2\times2$ matrix and two vectors. Then explain why one example does not prove the identity.
 
 ### Diagnostic challenge
 
-6. If $A\in\mathbb{R}^{m\times n}$, explain why every possible output $Ax$
-   lies in the span of the columns of $A$.
+6. If $A\in\mathbb{R}^{m\times n}$, explain why every possible output $Ax$ lies in the span of the columns of $A$.
 
 ---
 

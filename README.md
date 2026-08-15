@@ -1,7 +1,6 @@
 # My Math From Scratch
 
-A customized, mastery-gated mathematics course leading toward Stephen Boyd and
-Lieven Vandenberghe's *Convex Optimization*.
+A customized, mastery-gated mathematics course leading toward Stephen Boyd and Lieven Vandenberghe's *Convex Optimization*.
 
 ## Working method
 
@@ -13,27 +12,19 @@ Lieven Vandenberghe's *Convex Optimization*.
    - `work:` attempted exercises and questions
    - `review:` feedback on submitted work
    - `correction:` revisions after feedback
-5. At the end of each week, complete `Week-Review.md`. The next week is designed
-   from the evidence there.
+5. At the end of each week, complete `Week-Review.md`. The next week is designed from the evidence there.
 
 ## Mastery rule
 
-Move forward when the core exercises can be solved with correct notation and
-justified steps. A calendar week does not force progression. Unfinished sessions
-simply roll forward.
+Move forward when the core exercises can be solved with correct notation and justified steps. A calendar week does not force progression. Unfinished sessions simply roll forward.
 
 ## Feedback standard
 
-Reviews check mathematical correctness, justification, notation, dimensional
-consistency, recurring misconceptions, and whether the work demonstrates
-understanding rather than pattern matching.
+Reviews check mathematical correctness, justification, notation, dimensional consistency, recurring misconceptions, and whether the work demonstrates understanding rather than pattern matching.
 
 ## Course direction
 
-The initial phase builds the linear algebra, calculus, and proof skills needed for
-convex optimization. Later phases will cover convex sets, convex functions,
-optimization problems, duality, and algorithms. Only the next week is prepared in
-detail so the course can adapt to actual progress.
+The initial phase builds the linear algebra, calculus, and proof skills needed for convex optimization. Later phases will cover convex sets, convex functions, optimization problems, duality, and algorithms. Only the next week is prepared in detail so the course can adapt to actual progress.
 
 ## Current material
 

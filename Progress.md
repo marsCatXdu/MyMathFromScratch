@@ -1,7 +1,6 @@
 # Progress
 
-This file records durable evidence of learning. Update it during each weekly
-review; do not mark a topic mastered merely because it has been read once.
+This file records durable evidence of learning. Update it during each weekly review; do not mark a topic mastered merely because it has been read once.
 
 ## Status labels
 
@@ -22,8 +21,7 @@ review; do not mark a topic mastered merely because it has been read once.
 
 ## Recurring issues
 
-Record patterns such as dimension errors, unjustified algebraic steps, sign
-mistakes, or confusion between an object and its numerical representation.
+Record patterns such as dimension errors, unjustified algebraic steps, sign mistakes, or confusion between an object and its numerical representation.
 
 - Type and dimension notation required repeated correction on Day 1; retest the scalar/vector distinction in later work before marking the topic Reliable.
 

@@ -2,9 +2,7 @@
 
 ## Learning objectives
 
-You should be able to express a linear system as $Ax=b$, connect solvability to
-column span, solve small systems by elimination, and identify non-unique or
-inconsistent cases.
+You should be able to express a linear system as $Ax=b$, connect solvability to column span, solve small systems by elimination, and identify non-unique or inconsistent cases.
 
 ## 1. From scalar equations to $Ax=b$
 
@@ -26,8 +24,7 @@ can be written as
 \underbrace{\begin{bmatrix}5\\1\end{bmatrix}}_b.
 ```
 
-Because $Ax$ is a combination of the columns of $A$, $Ax=b$ has a solution
-exactly when $b$ belongs to the column span of $A$.
+Because $Ax$ is a combination of the columns of $A$, $Ax=b$ has a solution exactly when $b$ belongs to the column span of $A$.
 
 ## 2. Three possible outcomes
 
@@ -37,15 +34,11 @@ A linear system can have:
 - **no solution**, because its equations are inconsistent;
 - **infinitely many solutions**, because at least one variable remains free.
 
-For linear systems, two distinct solutions imply infinitely many solutions. This
-fact will be justified later when null spaces are studied.
+For linear systems, two distinct solutions imply infinitely many solutions. This fact will be justified later when null spaces are studied.
 
 ## 3. Elimination
 
-Elimination replaces equations with equivalent equations that are easier to solve.
-For the example above, subtract half of the first equation from the second, or use
-ordinary substitution. Either gives $x_2=1$ and $x_1=2$. Always check the result
-in the original equations.
+Elimination replaces equations with equivalent equations that are easier to solve. For the example above, subtract half of the first equation from the second, or use ordinary substitution. Either gives $x_2=1$ and $x_1=2$. Always check the result in the original equations.
 
 ## Worked contrasting cases
 
@@ -57,15 +50,13 @@ x_1+x_2=2,\qquad 2x_1+2x_2=4
 
 has infinitely many solutions: $x_1=t,\ x_2=2-t$.
 
-Changing the second right-hand side to 5 makes the equations inconsistent, because
-doubling the first left-hand side would require the right-hand side to be 4.
+Changing the second right-hand side to 5 makes the equations inconsistent, because doubling the first left-hand side would require the right-hand side to be 4.
 
 ## Homework
 
 ### Core
 
-1. Translate the following system into $Ax=b$, stating the dimensions of all
-   three objects:
+1. Translate the following system into $Ax=b$, stating the dimensions of all three objects:
    ```math
    3x_1-2x_2=7,\qquad x_1+4x_2=-1.
    ```
@@ -78,8 +69,7 @@ doubling the first left-hand side would require the right-hand side to be 4.
    ```math
    A=\begin{bmatrix}1&2\\2&4\end{bmatrix}.
    ```
-   Describe which $b=[b_1,b_2]^T$ make $Ax=b$ solvable. Express the condition
-   as an equation relating $b_1$ and $b_2$.
+   Describe which $b=[b_1,b_2]^T$ make $Ax=b$ solvable. Express the condition as an equation relating $b_1$ and $b_2$.
 5. Explain the relationship among these statements for a given $A$ and $b$:
    - $Ax=b$ has a solution;
    - $b$ is a linear combination of the columns of $A$;
@@ -92,8 +82,7 @@ doubling the first left-hand side would require the right-hand side to be 4.
    A=\begin{bmatrix}1&0\\1&1\\0&1\end{bmatrix},\qquad
    b=\begin{bmatrix}2\\5\\3\end{bmatrix}.
    ```
-   Check dimensions, determine whether $Ax=b$ is solvable, and explain the
-   result using both scalar equations and column span.
+   Check dimensions, determine whether $Ax=b$ is solvable, and explain the result using both scalar equations and column span.
 
 ---
 

@@ -2,9 +2,7 @@
 
 ## Purpose
 
-This week diagnoses whether the basic language of linear algebra is stable enough
-for later work in convex optimization. The target is accurate reasoning with
-vectors and matrices, not speed or memorization.
+This week diagnoses whether the basic language of linear algebra is stable enough for later work in convex optimization. The target is accurate reasoning with vectors and matrices, not speed or memorization.
 
 ## Sessions
 
@@ -17,9 +15,7 @@ vectors and matrices, not speed or memorization.
 
 ## Suggested pace
 
-Allow about 45–75 minutes per session. Stop after 90 minutes even if unfinished;
-record where reasoning failed and resume later. Do not use a calculator for the
-small arithmetic exercises.
+Allow about 45–75 minutes per session. Stop after 90 minutes even if unfinished; record where reasoning failed and resume later. Do not use a calculator for the small arithmetic exercises.
 
 ## Completion criterion
 
