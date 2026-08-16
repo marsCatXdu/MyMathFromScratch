@@ -2,7 +2,7 @@
 
 ## 1. Project purpose
 
-`MyMathFromScratch` is a long-term, customized mathematics course for a PG student who wants to study Stephen Boyd and Lieven Vandenberghe's *Convex Optimization* but currently has weak mathematical foundations and difficulty starting from the textbook directly.
+`MyMathFromScratch` is a long-term, customized mathematics course for a PhD student who wants to study Stephen Boyd and Lieven Vandenberghe's *Convex Optimization* but currently has weak mathematical foundations and difficulty starting from the textbook directly.
 
 Repository: <https://github.com/marsCatXdu/MyMathFromScratch>
 
