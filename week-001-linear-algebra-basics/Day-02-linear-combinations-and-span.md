@@ -134,3 +134,10 @@ Before beginning Day 3, add these two short corrections without deleting the ori
 2. Complete Problem 6 by explaining why $u$ and $v$ not being scalar multiples implies $x_uy_v-x_vy_u\ne0$.
 
 **Decision:** Make these two corrections, then begin Day 3. Independent retrieval during the Week 1 review will determine whether this topic can become Reliable.
+
+
+
+### Corrections:
+
+1. The coefficients $c_1, ..., c_k$ are scalars, for each choice of coefficients $c_1v_1+...+c_kv_k$ is a vector, and the resulting vector belongs to span($v_1,...,v_k$). Coefficients are numbers (scalars), while the linear combination of vectors is another vector lies in the span. 
+
