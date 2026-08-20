@@ -183,3 +183,11 @@ Before Day 4, add three short corrections without deleting the original work:
 3. Rewrite Problem 6 so that $Ax$, rather than $(Ax)_i$, is identified as the linear combination belonging to the column span.
 
 **Decision:** Make these short corrections, then begin Day 4. Later retrieval will test whether matrix–vector multiplication can become Reliable.
+
+
+
+### Corrections
+
+![image-20260820221054747](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820221054747.png)
+
+![image-20260820221119771](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820221119771.png)
