@@ -141,3 +141,13 @@ Before beginning Day 3, add these two short corrections without deleting the ori
 
 1. The coefficients $c_1, ..., c_k$ are scalars, for each choice of coefficients $c_1v_1+...+c_kv_k$ is a vector, and the resulting vector belongs to span($v_1,...,v_k$). Coefficients are numbers (scalars), while the linear combination of vectors is another vector lies in the span. 
 
+2. Proof attempt:
+
+![Day 2 proof correction](./Day-02-linear-combinations-and-span.assets/image-20260820175028259.png)
+
+### Review closure — 2026-08-20
+
+The coefficient/vector correction is correct. The proof attempt identifies the central implication that a zero determinant would force the two vectors to be scalar multiples. Handling zero coordinates without unsafe division and proving uniqueness cleanly remain targets for later retrieval practice.
+
+**Decision:** Day 2 is complete at **Developing**. Begin Day 3 when rested; revisit this proof during a cumulative review rather than continuing it now.
+
