@@ -15,7 +15,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 |---|---|---|---|
 | Vector notation and dimensions | Developing | Day 1 computations and corrections complete; scalar/vector types, result spaces, basis vectors, and vector cancellation are now stated correctly; independent retention not yet tested | 2026-08-15 |
 | Linear combinations and span | Developing | Day 2 completed: core work is correct and the coefficient/vector distinction was corrected; the determinant and uniqueness proof was attempted and understood in outline, with formal handling of zero-coordinate cases deferred to cumulative review | 2026-08-20 |
-| Matrix-vector multiplication | Developing | Day 3 dimension checks and computations are correct using both row and column views; matrix construction is correct; the distinction between $Ax$ and $(Ax)_i$ and the general linearity proof need short corrections | 2026-08-20 |
+| Matrix-vector multiplication | Developing | Day 3 completed: dimension checks, row and column computations, matrix construction, compatibility conditions, and the general proof of additivity are correct after revision; $Ax$ versus $(Ax)_i$ was corrected, but independent retention has not been tested | 2026-08-20 |
 | Inner products and norms | Not studied | — | — |
 | Linear equations | Not studied | — | — |
 
@@ -32,4 +32,4 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
-| 1 | In progress | Object/type precision and converting examples into general arguments; retention still needs testing | Add the three short Day 3 corrections, then begin Day 4; use the cheat sheet for retrieval and revisit the Day 2 proof later |
+| 1 | In progress | Object/type precision and converting examples into general arguments; retention still needs testing | Begin Day 4; use the cheat sheet for retrieval and revisit the Day 2 proof later |
