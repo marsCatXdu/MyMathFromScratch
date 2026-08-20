@@ -186,8 +186,20 @@ Before Day 4, add three short corrections without deleting the original work:
 
 
 
-### Corrections
+### Initial corrections
 
 ![image-20260820221054747](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820221054747.png)
 
 ![image-20260820221119771](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820221119771.png)
+
+### Final corrections
+
+![image-20260820222051767](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820222051767.png)
+
+![image-20260820222123024](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820222123024.png)
+
+### Correction review
+
+Accepted. Problem 4 now identifies both forced columns and explains why they determine a unique matrix. Problem 5 states the compatibility conditions and gives a valid componentwise proof for arbitrary compatible $A,x,y$. Problem 6 now uses $x\in\mathbb{R}^n$ and correctly distinguishes the vector $Ax$ from its scalar components.
+
+**Decision:** Day 3 is complete at **Developing**. Begin Day 4; later retrieval will test whether the ideas are reliable without assistance.
