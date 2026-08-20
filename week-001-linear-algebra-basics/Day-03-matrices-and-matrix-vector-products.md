@@ -134,3 +134,52 @@ Record whether the row view or column view feels less secure, and why.
 
 I think row view is less secure. They are numerically identical, but column view is its essence, while row view is a calculation result. 
 
+
+
+---
+
+## Review
+
+### Assessment
+
+**Developing.** Problems 1–5 are computationally correct. You can check dimensions, compute a matrix–vector product by rows and columns, express the result through symbolic columns, and construct a matrix from a required transformation. The remaining weakness is distinguishing the vector $Ax$ from its scalar components $(Ax)_i$ and turning a numerical verification into a universal argument.
+
+### Problem feedback
+
+1. Correct. The outputs are respectively in $\mathbb{R}^4$, undefined because the inner dimensions are $3$ and $4$, and in $\mathbb{R}^5$.
+2. Correct. Both views give $Ax=[6,6]^T$.
+3. Correct. $Ax=2a_1-a_3$.
+4. Correct. The matrix is $A=\begin{bmatrix}1&1\\1&-1\end{bmatrix}$. It is unique, because its columns are forced by $Ae_1=[1,1]^T$ and $Ae_2=[1,-1]^T$.
+5. The numerical verification is correct, and the chosen values are nontrivial. One example verifies one case but cannot prove a statement quantified over every compatible $A,x,y$.
+6. The conclusion is correct: $Ax$ lies in the span of the columns. However, $(Ax)_i$ is a scalar component; it is $Ax$ that is a vector and a linear combination of the columns.
+
+### Answers to your questions
+
+For $A\in\mathbb{R}^{m\times n}$, the map is $A:\mathbb{R}^n\to\mathbb{R}^m$. A nonsquare matrix therefore maps between coordinate spaces of different dimensions.
+
+If $A=[a_1\ \cdots\ a_n]$, then $a_j=Ae_j$. Column $j$ is the image of the $j$-th standard basis vector, and $Ax=\sum_{j=1}^n x_ja_j$. The row view is also structural rather than merely a shortcut: row $i$ determines the scalar output component $(Ax)_i$.
+
+A function is called linear when it preserves linear combinations. Matrix multiplication satisfies $A(cx+dy)=cAx+dAy$, so the function $T(x)=Ax$ is a linear transformation.
+
+### General proof for Problem 5
+
+For every output component $i$,
+
+```math
+[A(x+y)]_i
+=\sum_{j=1}^n a_{ij}(x_j+y_j)
+=\sum_{j=1}^n a_{ij}x_j+\sum_{j=1}^n a_{ij}y_j
+=(Ax)_i+(Ay)_i.
+```
+
+Because the components agree for every $i$, $A(x+y)=Ax+Ay$. This uses arbitrary entries rather than one numerical example.
+
+## Corrections I should retain
+
+Before Day 4, add three short corrections without deleting the original work:
+
+1. State that the matrix in Problem 4 is unique and explain this using $Ae_1$ and $Ae_2$.
+2. Explain why a numerical example cannot establish a universal identity; summarize the componentwise proof above.
+3. Rewrite Problem 6 so that $Ax$, rather than $(Ax)_i$, is identified as the linear combination belonging to the column span.
+
+**Decision:** Make these short corrections, then begin Day 4. Later retrieval will test whether matrix–vector multiplication can become Reliable.
