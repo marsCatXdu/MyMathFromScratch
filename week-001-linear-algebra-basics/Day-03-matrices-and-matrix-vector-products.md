@@ -40,6 +40,16 @@ Ax=x_1a_1+x_2a_2+\cdots+x_na_n.
 
 This connects matrix multiplication directly to linear combinations and span.
 
+
+
+> For this part, to me it feels the "column view" is the transformation view: we are applying the transformation on each dimension to the exactly value on that dimension (say a_1 is the transformed point of 1st dimension of vector x). 
+>
+> On the other hand, the "row view" is more like a way of remembering how to getting the result quickly. 
+>
+> I do can write the both out by slowly thinking, but maybe I shall remember them so I can quickly link my thoughts with them whenever I need? Add a "cheat sheet" for me to collect things worth to remember so that I can review and even recite more often. 
+
+
+
 ## 3. Linearity
 
 For compatible vectors $x,y$ and scalar $c$,
@@ -49,6 +59,10 @@ A(x+y)=Ax+Ay,\qquad A(cx)=c(Ax).
 ```
 
 Together these give $A(cx+dy)=cAx+dAy$. This is why a matrix represents a linear transformation.
+
+> This is also intuitive, but I think I shall also remember them so I can recover quickly when I need. 
+>
+> BTW, I know a matrix means a transformation (from learning with 3b1b), but I didn't get the logic saying "This is why a matrix represents a linear transformation" here. 
 
 ## Worked example
 
@@ -66,6 +80,12 @@ Ax=2\begin{bmatrix}1\\3\\0\end{bmatrix}
 -\begin{bmatrix}2\\-1\\4\end{bmatrix}
 =\begin{bmatrix}0\\7\\-4\end{bmatrix}.
 ```
+
+> For non-square matrix transformation, we are transforming the vector across different dimension space, right?
+>
+> The number of columns in transformation matrix means the number of basis vectors in the original space? I don't remember the detail and recovered that from my earlier notes, I forgot the reason behind. 
+
+
 
 ## Homework
 
@@ -94,10 +114,23 @@ Ax=2\begin{bmatrix}1\\3\\0\end{bmatrix}
 
 Show dimension checks before arithmetic.
 
+![image-20260820205939400](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820205939400.png)
+
+![image-20260820210002452](./Day-03-matrices-and-matrix-vector-products.assets/image-20260820210002452.png)
+
+
+
 ## My reasoning
 
 For Problems 4–6, explain how the matrix columns determine the result.
 
+Each column describes a transformation of the corresponding dimension, all columns combined builds up the transformation of the entire vector x.  
+
+
+
 ## Confusions and questions
 
 Record whether the row view or column view feels less secure, and why.
+
+I think row view is less secure. They are numerically identical, but column view is its essence, while row view is a calculation result. 
+
