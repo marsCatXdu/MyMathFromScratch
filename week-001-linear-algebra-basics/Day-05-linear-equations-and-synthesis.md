@@ -293,3 +293,11 @@ I did all problems again
 <img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821190659905.png" alt="image-20260821190659905" style="zoom:50%;" />
 
 <img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821190752217.png" alt="image-20260821190752217" style="zoom:50%;" />
+
+### Correction review — 2026-08-21
+
+Accepted. Problems 1–3 now state the object dimensions, verify both original equations, and identify pivots by variable columns correctly. Problem 5 now treats solvability, linear-combination existence, and column-span membership as equivalent statements. Problem 6 correctly uses $A\in\mathbb{R}^{3\times2}$, $x\in\mathbb{R}^2$, and $b\in\mathbb{R}^3$, finds the unique solution, and verifies it through both scalar equations and the column view.
+
+In Problem 5, avoid using “compatible” as a synonym for “solvable.” Compatible dimensions mean that $Ax$ is defined; solvability additionally requires $b$ to belong to the column span. This wording issue does not require another correction.
+
+**Decision:** Day 5 is complete at **Developing**. Proceed to the Week 1 review, which will test independent retrieval across Days 1–5.
