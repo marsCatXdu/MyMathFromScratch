@@ -33,4 +33,4 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
-| 1 | In progress | Object/type precision and the distinction among definedness, existence, and uniqueness have required repeated correction; retention across Days 1–5 is not yet tested | Complete the Week 1 review before designing detailed Week 2 material |
+| 1 | Review corrections pending | Closed-book retrieval retained the main concepts; one undefined symbol, one omitted output dimension, and one norm arithmetic error remain | Make the three short Week 1 review corrections, then close Phase 1 and begin Phase 2 |
