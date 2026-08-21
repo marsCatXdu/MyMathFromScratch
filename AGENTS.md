@@ -108,7 +108,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-`Progress.md` currently marks all Week 1 topics as **Not studied**. No learner work has yet been reviewed. Therefore, do not infer weaknesses beyond the general background and do not design Week 2 in detail yet.
+Days 1–4 have been completed and reviewed. Days 1–3 remain **Developing** pending later retrieval; Day 4 is **Reliable** based on a fully correct first attempt including its diagnostic challenge. Day 5 and the Week 1 review remain. Do not design Week 2 in detail until the Week 1 review provides evidence.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -153,9 +153,10 @@ This is a provisional dependency map, not a fixed timetable. Change order and de
 
 ## 9. Git workflow
 
-Use a simple direct-to-`main` workflow unless the learner explicitly requests otherwise.
+Use a simple direct-to-`main` workflow. Do not create a branch or pull request during the normal learner/reviewer cycle. Create one only when the learner explicitly requests it for a particular task.
 
 - Fetch the latest `origin/main` before starting work and ensure the local branch can be updated safely.
+- Treat the learner's latest pushed commit as the review base; never rewrite or discard it.
 - Commit prefixes:
   - `lesson:` new or revised curriculum;
   - `work:` learner attempts and questions;
@@ -169,9 +170,9 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Do not generate Week 2 yet.
+First, fetch the repository and work from the latest `main`. Day 5 is the next lesson to complete; do not generate Week 2 yet.
 
-Wait for the learner to complete one or more Week 1 sessions. When new work is pushed, review only the submitted scope, add precise feedback, and use the accumulated evidence to decide the next action. The first major curriculum decision should follow the completed Week 1 review.
+When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
 ## 11. Definition of success
 
