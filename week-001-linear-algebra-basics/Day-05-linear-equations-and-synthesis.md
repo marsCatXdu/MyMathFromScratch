@@ -284,4 +284,12 @@ Matrix form and column span are connected by the column view of multiplication. 
 
 
 
+### Corrections
 
+I did all problems again
+
+<img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821190619587.png" alt="image-20260821190619587" style="zoom:50%;" />
+
+<img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821190659905.png" alt="image-20260821190659905" style="zoom:50%;" />
+
+<img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821190752217.png" alt="image-20260821190752217" style="zoom:50%;" />
