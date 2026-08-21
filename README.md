@@ -14,6 +14,12 @@ A customized, mastery-gated mathematics course leading toward Stephen Boyd and L
    - `correction:` revisions after feedback
 5. At the end of each week, complete `Week-Review.md`. The next week is designed from the evidence there.
 
+## Git collaboration
+
+The learner and reviewing agent both work directly on `main`. The learner pushes completed work, then asks for review. The agent fetches the latest `main`, reviews only the submitted scope, updates the lesson review and `Progress.md`, validates the exact diff, and commits the result back to `main`.
+
+Do not create branches or pull requests for the normal learning cycle. Use them only if the learner explicitly requests them for a particular task.
+
 ## Mastery rule
 
 Move forward when the core exercises can be solved with correct notation and justified steps. A calendar week does not force progression. Unfinished sessions simply roll forward.
