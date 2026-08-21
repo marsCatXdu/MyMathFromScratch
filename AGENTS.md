@@ -121,7 +121,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-Days 1–4 have been completed and reviewed. Days 1–3 remain **Developing** pending later retrieval; Day 4 is **Reliable** based on a fully correct first attempt including its diagnostic challenge. Day 5 is in progress, and the Week 1 review remains. Do not design Week 2 in detail until the Week 1 review provides evidence.
+Days 1–5 have been completed and reviewed. Days 1–3 and Day 5 remain **Developing** pending later retrieval; Day 4 is **Reliable** based on a fully correct first attempt including its diagnostic challenge. The Week 1 review is next. Do not design Week 2 in detail until that review provides evidence.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -183,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Day 5 is in progress and is the next lesson to complete; do not generate Week 2 yet.
+First, fetch the repository and work from the latest `main`. The Week 1 review is the next session; do not generate Week 2 yet.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
