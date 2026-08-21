@@ -69,9 +69,9 @@ Each row represents one equation. The vertical line only separates the coefficie
 
 We may perform three elementary row operations:
 
-1. swap two rows;
-2. multiply a row by a nonzero scalar;
-3. add a scalar multiple of one row to another row.
+1. <u>swap two rows;</u>
+2. <u>multiply a row by a nonzero scalar;</u>
+3. <u>add a scalar multiple of one row to another row.</u>
 
 These operations preserve the solution set because they replace the equations with equivalent equations. Apply an operation to the entire row, including the entry to the right of the vertical line. We write $R_i$ for row $i$; for example, $R_2\leftarrow R_2-2R_1$ means subtract twice row 1 from row 2.
 
@@ -123,7 +123,7 @@ Eliminate the $2$ below the first leading entry:
 
 The second row gives $3x_2=3$, so $x_2=1$. Substitution into the first row gives $x_1-x_2=1$, hence $x_1=2$. Check the result in the original equations.
 
-The first nonzero coefficient in a nonzero row is called a **pivot**. Elimination aims to create a staircase form in which the pivot of each lower row lies to the right of the pivot above it.
+<u>The first nonzero coefficient in a nonzero row is called a **pivot**. Elimination aims to create a staircase form</u> in which the pivot of each lower row lies to the right of the pivot above it.
 
 ### 3.5 Reading the outcome
 
@@ -160,6 +160,8 @@ has augmented matrix
 ```
 
 There is no contradiction, but $x_2$ has no pivot and is free. Setting $x_2=t$ gives infinitely many solutions: $x_1=2-t$.
+
+> Gaussian elimination conventionally chooses variables in nonpivot columns as free. Choosing $x_1$ makes the same result. 
 
 Changing the second right-hand side to 5 gives
 
@@ -219,6 +221,16 @@ The last row says $0=1$, so the system is inconsistent and has no solution.
 
 Show the translation, elimination, classification, and verification steps.
 
+![image-20260821154027926](./Day-05-linear-equations-and-synthesis.assets/image-20260821154027926.png)
+
+![image-20260821154048801](./Day-05-linear-equations-and-synthesis.assets/image-20260821154048801.png)![image-20260821154104689](./Day-05-linear-equations-and-synthesis.assets/image-20260821154104689.png)
+
+![image-20260821154115802](./Day-05-linear-equations-and-synthesis.assets/image-20260821154115802.png)
+
+
+
+
+
 ## My reasoning
 
 For Problems 3–6, explain the structural reason for the answer.
@@ -226,3 +238,12 @@ For Problems 3–6, explain the structural reason for the answer.
 ## Confusions and questions
 
 Identify which connection is weakest: equations ↔ matrix form ↔ column span.
+
+matrix form ↔ column span is the weakest. all equations can be written into matrix form (although they may not have a solution). 
+
+(Still feel strange here, I don't know how to figure out their relationship formally)
+
+
+
+
+
