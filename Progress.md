@@ -13,11 +13,11 @@ This file records durable evidence of learning. Update it during each weekly rev
 
 | Topic | Status | Evidence | Last checked |
 |---|---|---|---|
-| Vector notation and dimensions | Developing | Day 1 computations and corrections complete; scalar/vector types, result spaces, basis vectors, and vector cancellation are now stated correctly; independent retention not yet tested | 2026-08-15 |
-| Linear combinations and span | Developing | Day 2 completed: core work is correct and the coefficient/vector distinction was corrected; the determinant and uniqueness proof was attempted and understood in outline, with formal handling of zero-coordinate cases deferred to cumulative review | 2026-08-20 |
-| Matrix-vector multiplication | Developing | Day 3 completed: dimension checks, row and column computations, matrix construction, compatibility conditions, and the general proof of additivity are correct after revision; $Ax$ versus $(Ax)_i$ was corrected, but independent retention has not been tested | 2026-08-20 |
+| Vector notation and dimensions | Reliable | Week 1 closed-book retrieval correctly identified input/output spaces and the dimensions of $A$, $x$, and $Ax$ after one omitted output dimension was corrected | 2026-08-21 |
+| Linear combinations and span | Reliable | Week 1 retrieval correctly stated span through coefficients, connected it to column combinations, described a dependent span geometrically, and justified a vector outside it | 2026-08-21 |
+| Matrix-vector multiplication | Reliable | Week 1 retrieval correctly used dimensions, column combinations, component expansion, and the equivalence between $Ax=b$ and column-span membership | 2026-08-21 |
 | Inner products and norms | Reliable | Day 4 was correct on the first submitted attempt, including exact norm calculations, normalization, the general squared-distance expansion, the orthogonal Pythagorean identity, and an unfamiliar one-parameter orthogonality problem | 2026-08-21 |
-| Linear equations | Developing | Day 5 completed after revision: elimination, classification, pivot identification, the solvability condition, and the equivalence with column-span membership are correct; the diagnostic system was verified through elimination, scalar equations, and columns, with independent retrieval still required | 2026-08-21 |
+| Linear equations | Reliable | Week 1 retrieval independently solved and verified a new system and correctly used inconsistency to prove non-membership in a column span | 2026-08-21 |
 
 ## Recurring issues
 
@@ -33,4 +33,4 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
-| 1 | Review corrections pending | Closed-book retrieval retained the main concepts; one undefined symbol, one omitted output dimension, and one norm arithmetic error remain | Make the three short Week 1 review corrections, then close Phase 1 and begin Phase 2 |
+| 1 | Complete | All five foundational topics were retained in cumulative problems; minor notation and arithmetic slips were corrected | Begin Phase 2 with linear independence and basis; keep proof tasks short and scaffolded |
