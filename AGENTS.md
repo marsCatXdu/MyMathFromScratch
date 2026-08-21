@@ -121,7 +121,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-Days 1–5 have been completed and reviewed. The Week 1 review has been submitted and is mostly correct; three short corrections remain in Parts A.2, B.1, and B.3. Do not create detailed Week 2 material until those corrections close Phase 1.
+Week 1 and Phase 1 are complete. The cumulative review supports **Reliable** status for vector notation and dimensions, linear combinations and span, matrix-vector multiplication, inner products and norms, and linear equations. Phase 2 has begun, but only its first lesson on linear independence and basis is prepared. Later Phase 2 lessons must remain adaptive.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -183,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. The next task is to review the learner's three Week 1 corrections. Once accepted, close Phase 1, update the progress bars, and create only the first justified Phase 2 lesson.
+First, fetch the repository and work from the latest `main`. Wait for the learner to attempt Week 2 Day 1, then review that submitted scope before creating another detailed lesson.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
