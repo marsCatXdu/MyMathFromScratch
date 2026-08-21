@@ -46,14 +46,14 @@ The initial phase builds the linear algebra, calculus, and proof skills needed f
 
 These are coarse phases rather than equally sized calendar units. Only the current phase is designed in detail; later phases remain adjustable.
 
-**Course position:** `█░░░░░░░░░` — Phase 1 of 10 in progress
+**Course position:** `██░░░░░░░░` — Phase 2 of 10 in progress
 
-**Current unit:** `████████░░` — 5 of 6 Week 1 sessions complete; the Week 1 review is next
+**Current unit:** `██████████` — Week 1 complete; Week 2 Day 1 is ready
 
 | Phase | Mainline | Status |
 |---:|---|---|
-| 1 | Linear algebra foundations: vectors, matrices, norms, and linear systems | **In progress** |
-| 2 | Linear algebra structure: independence, basis, subspaces, rank, and null spaces | Planned |
+| 1 | Linear algebra foundations: vectors, matrices, norms, and linear systems | **Complete** |
+| 2 | Linear algebra structure: independence, basis, subspaces, rank, and null spaces | **In progress** |
 | 3 | Orthogonality, projections, and least squares | Planned |
 | 4 | Eigenvalues, quadratic forms, and positive semidefinite matrices | Planned |
 | 5 | Functions, graphs, composition, and affine mappings | Planned |
@@ -68,3 +68,4 @@ Proof and inequality skills are developed gradually along this mainline rather t
 ## Current material
 
 - [Week 1 — Linear algebra foundations](week-001-linear-algebra-basics/README.md)
+- [Week 2 — Linear algebra structure](week-002-linear-algebra-structure/README.md)
