@@ -30,6 +30,19 @@ A `Day-xx` file represents one study session, not necessarily one calendar day. 
 
 Do not generate many future weeks in advance. Prepare only the next appropriate unit after reviewing the latest evidence. A fixed long-range syllabus can exist at high level, but detailed lessons must remain adaptive.
 
+### Minimal mainline and just-in-time expansion
+
+Treat the repository as an interactively created textbook customized for this learner. Keep the instructional mainline intentionally small rather than making each lesson comprehensive.
+
+- Include every concept and method required to understand the lesson and attempt its homework.
+- Do not require an untaught method in homework. If a task depends on a missing method, add the minimum necessary instruction before the task.
+- Defer related but nonessential material until it becomes necessary or the learner asks about it.
+- When a brief connection is useful but not required, place it in a Markdown quote block beginning with `> **Optional context — not required now.**`
+- Optional context must not add homework, become a hidden prerequisite, or block progression.
+- When the learner asks for an explanation, preserve the useful expansion in the appropriate lesson or later unit without broadening unrelated sections.
+
+The high-level mainline map in `README.md` provides direction, not a fixed detailed syllabus. Maintain its course-position and current-unit progress bars whenever reviewed evidence changes the active phase or completed-session count.
+
 ### Diagnose reasoning, not answer accuracy alone
 
 The learner should preserve intermediate reasoning and failed attempts. Reviews must distinguish among:
@@ -108,7 +121,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-Days 1–4 have been completed and reviewed. Days 1–3 remain **Developing** pending later retrieval; Day 4 is **Reliable** based on a fully correct first attempt including its diagnostic challenge. Day 5 and the Week 1 review remain. Do not design Week 2 in detail until the Week 1 review provides evidence.
+Days 1–4 have been completed and reviewed. Days 1–3 remain **Developing** pending later retrieval; Day 4 is **Reliable** based on a fully correct first attempt including its diagnostic challenge. Day 5 is in progress, and the Week 1 review remains. Do not design Week 2 in detail until the Week 1 review provides evidence.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -170,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Day 5 is the next lesson to complete; do not generate Week 2 yet.
+First, fetch the repository and work from the latest `main`. Day 5 is in progress and is the next lesson to complete; do not generate Week 2 yet.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
