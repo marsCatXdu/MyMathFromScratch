@@ -17,7 +17,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Linear combinations and span | Developing | Day 2 completed: core work is correct and the coefficient/vector distinction was corrected; the determinant and uniqueness proof was attempted and understood in outline, with formal handling of zero-coordinate cases deferred to cumulative review | 2026-08-20 |
 | Matrix-vector multiplication | Developing | Day 3 completed: dimension checks, row and column computations, matrix construction, compatibility conditions, and the general proof of additivity are correct after revision; $Ax$ versus $(Ax)_i$ was corrected, but independent retention has not been tested | 2026-08-20 |
 | Inner products and norms | Reliable | Day 4 was correct on the first submitted attempt, including exact norm calculations, normalization, the general squared-distance expansion, the orthogonal Pythagorean identity, and an unfamiliar one-parameter orthogonality problem | 2026-08-21 |
-| Linear equations | Not studied | — | — |
+| Linear equations | Developing | Day 5 elimination and system classifications are correct, and the solvability condition in Problem 4 is correct; dimension notation, pivot terminology, the two-way column-span equivalence, and the diagnostic synthesis require correction | 2026-08-21 |
 
 ## Recurring issues
 
@@ -27,9 +27,10 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 - Day 2 reasoning assigned span membership to coefficient sets instead of resulting vectors; continue checking which mathematical space each object belongs to.
 - Formal proof remains tiring and fragile when zero-coordinate cases or uniqueness arguments appear; revisit through short, scaffolded proof exercises rather than repeating the full Day 2 proof immediately.
 - Day 3 again blurred a vector with one of its scalar components: $Ax$ belongs to the column span, while $(Ax)_i$ is a scalar. Continue explicit type checks.
+- Day 5 initially treated compatible dimensions as evidence of solvability and described pivots by rows rather than variable columns; continue separating definedness, existence, and uniqueness.
 
 ## Weekly record
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
-| 1 | In progress | Earlier object/type precision and general-proof weaknesses still need later retrieval; Day 4 introduced no new error pattern | Begin Day 5; use the cheat sheet for retrieval and revisit the Day 2 proof later |
+| 1 | In progress | Object/type precision and the distinction among definedness, existence, and uniqueness remain unstable; the column-span equivalence needs a complete two-way explanation | Correct the five identified Day 5 points, then complete the Week 1 review |
