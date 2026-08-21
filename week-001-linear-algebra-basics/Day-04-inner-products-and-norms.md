@@ -103,3 +103,24 @@ For Problems 4–6, justify each algebraic transformation.
 Record any confusion among $x^Ty$, $\lVert x\rVert_2$, and $\lVert x\rVert_2^2$.
 
 No. 
+
+---
+
+## Review
+
+### Assessment
+
+**Reliable.** All six problems are correct on the first submitted attempt. The work distinguishes inner product, norm, squared norm, and distance; expands the squared distance correctly; applies orthogonality to obtain the Pythagorean identity; and describes the full orthogonal family using a free scalar.
+
+### Problem feedback
+
+1. Correct. $x^Tx=9$ is the squared length and $\lVert x\rVert_2=3$ is the length.
+2. Correct. $x^Ty=0$, so the vectors are orthogonal, and $\lVert x-y\rVert_2=\sqrt{10}$.
+3. Correct. The normalized vector is $[-3/5,4/5]^T$, and the direct norm check equals $1$.
+4. Correct. The expansion gives $\lVert x-y\rVert_2^2=x^Tx+y^Ty-2x^Ty$.
+5. Correct. Substituting $x^Ty=0$ gives the required identity.
+6. Correct. The condition $2a+3b=0$ gives $y=t[1,-2/3]^T$ for arbitrary $t\in\mathbb R$; equivalently, $y=s[3,-2]^T$.
+
+In Problem 6, the sentence “Since $x,y$ are orthogonal” is logically better written as “For $y$ to be orthogonal to $x$.” The equation that follows is correct.
+
+**Decision:** Day 4 is complete. Begin Day 5.
