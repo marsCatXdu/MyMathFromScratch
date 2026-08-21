@@ -88,10 +88,18 @@ so they are orthogonal. Also $\lVert x\rVert_2=5$, and the unit vector in the di
 
 Keep square roots exact unless a decimal approximation is specifically useful.
 
+![image-20260821112531166](./Day-04-inner-products-and-norms.assets/image-20260821112531166.png)
+
+![image-20260821112545311](./Day-04-inner-products-and-norms.assets/image-20260821112545311.png)
+
 ## My reasoning
 
 For Problems 4–6, justify each algebraic transformation.
 
+> Included above
+
 ## Confusions and questions
 
 Record any confusion among $x^Ty$, $\lVert x\rVert_2$, and $\lVert x\rVert_2^2$.
+
+No. 
