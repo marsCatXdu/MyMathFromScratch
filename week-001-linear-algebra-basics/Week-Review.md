@@ -132,3 +132,9 @@ After the three corrections below, Week 1 can close. Week 2 should begin Phase 2
 ### Corrections:
 
 ![image-20260821205931379](./Week-Review.assets/image-20260821205931379.png)
+
+### Correction review — 2026-08-21
+
+Accepted. Part A.2 now states span membership using explicit coefficients, Part B.1 includes $Ax\in\mathbb{R}^3$, and Part B.3 correctly gives $\lVert u-v\rVert_2=\sqrt{14}$.
+
+**Decision:** Week 1 and Phase 1 are complete. The cumulative review provides sufficient independent evidence to mark the five foundational topics **Reliable**. Precision, proof structure, and definedness versus solvability remain retrieval targets in later phases.
