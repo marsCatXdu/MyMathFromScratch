@@ -17,7 +17,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Linear combinations and span | Developing | Day 2 completed: core work is correct and the coefficient/vector distinction was corrected; the determinant and uniqueness proof was attempted and understood in outline, with formal handling of zero-coordinate cases deferred to cumulative review | 2026-08-20 |
 | Matrix-vector multiplication | Developing | Day 3 completed: dimension checks, row and column computations, matrix construction, compatibility conditions, and the general proof of additivity are correct after revision; $Ax$ versus $(Ax)_i$ was corrected, but independent retention has not been tested | 2026-08-20 |
 | Inner products and norms | Reliable | Day 4 was correct on the first submitted attempt, including exact norm calculations, normalization, the general squared-distance expansion, the orthogonal Pythagorean identity, and an unfamiliar one-parameter orthogonality problem | 2026-08-21 |
-| Linear equations | Developing | Day 5 elimination and system classifications are correct, and the solvability condition in Problem 4 is correct; dimension notation, pivot terminology, the two-way column-span equivalence, and the diagnostic synthesis require correction | 2026-08-21 |
+| Linear equations | Developing | Day 5 completed after revision: elimination, classification, pivot identification, the solvability condition, and the equivalence with column-span membership are correct; the diagnostic system was verified through elimination, scalar equations, and columns, with independent retrieval still required | 2026-08-21 |
 
 ## Recurring issues
 
@@ -33,4 +33,4 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
-| 1 | In progress | Object/type precision and the distinction among definedness, existence, and uniqueness remain unstable; the column-span equivalence needs a complete two-way explanation | Correct the five identified Day 5 points, then complete the Week 1 review |
+| 1 | In progress | Object/type precision and the distinction among definedness, existence, and uniqueness have required repeated correction; retention across Days 1–5 is not yet tested | Complete the Week 1 review before designing detailed Week 2 material |
