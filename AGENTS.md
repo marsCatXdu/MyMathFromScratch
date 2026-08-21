@@ -121,7 +121,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-Week 1 and Phase 1 are complete. The cumulative review supports **Reliable** status for vector notation and dimensions, linear combinations and span, matrix-vector multiplication, inner products and norms, and linear equations. Phase 2 has begun, but only its first lesson on linear independence and basis is prepared. Later Phase 2 lessons must remain adaptive.
+Week 1 and Phase 1 are complete. The cumulative review supports **Reliable** status for vector notation and dimensions, linear combinations and span, matrix-vector multiplication, inner products and norms, and linear equations. At the learner's explicit request, five Phase 2 sessions are prepared: independence and basis, subspaces, column space and rank, null space and solution structure, and synthesis. Do not prepare material beyond this set until the submitted work shows what should follow.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -183,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Wait for the learner to attempt Week 2 Day 1, then review that submitted scope before creating another detailed lesson.
+First, fetch the repository and work from the latest `main`. Wait for the learner to submit a Week 2 session, then review only that submitted scope. Update the Week 2 progress bar after each accepted session. Do not create material beyond Day 5 until this set has been reviewed.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
