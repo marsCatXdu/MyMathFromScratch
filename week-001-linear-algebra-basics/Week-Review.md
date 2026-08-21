@@ -126,3 +126,9 @@ After the three corrections below, Week 1 can close. Week 2 should begin Phase 2
 3. Correct $\lVert u-v\rVert_2$ in Part B.3.
 
 **Decision:** Make these three one-line corrections. No other Week 1 work is required before progression.
+
+
+
+### Corrections:
+
+![image-20260821205931379](./Week-Review.assets/image-20260821205931379.png)
