@@ -243,6 +243,44 @@ matrix form ↔ column span is the weakest. all equations can be written into ma
 
 (Still feel strange here, I don't know how to figure out their relationship formally)
 
+---
+
+## Review
+
+### Assessment
+
+**Developing.** The Gaussian-elimination computations and all three classifications in Problem 3 are correct. Problem 4 is also correct. The remaining issues are dimension notation, identifying pivots by variable columns, proving the equivalence between solvability and column-span membership, and separating dimensional compatibility from actual solvability.
+
+### Problem feedback
+
+1. The matrix equation is correct, but the dimensions must be stated separately: $A\in\mathbb{R}^{2\times2}$ and $x,b\in\mathbb{R}^2$.
+2. Correct: $x_1=13/7$ and $x_2=-5/7$. The row operations and first-equation check are correct. Also verify the second original equation, as the problem requests verification in the original equations.
+3. All classifications are correct. In 3.1, say that every **variable column** has a pivot. In 3.3, the $x_1$ column has the pivot; only $x_2$ is free. A zero row contains no pivot but does not remove the pivot already present above it.
+4. Correct. Elimination gives the necessary and sufficient condition $b_2=2b_1$.
+5. The forward implication is present, but the reverse implication is missing. If $A=[a_1\ \cdots\ a_n]$, then
+
+   ```math
+   Ax=b
+   \iff x_1a_1+\cdots+x_na_n=b
+   \iff b\in\operatorname{span}\{a_1,\ldots,a_n\}.
+   ```
+
+   A linear combination producing $b$ supplies the entries of a solution vector $x$, so all three statements are equivalent.
+6. Incomplete. Since $A\in\mathbb{R}^{3\times2}$, the required types are $x\in\mathbb{R}^2$ and $b\in\mathbb{R}^3$. This makes $Ax=b$ well-formed but does not prove it solvable or unique. Write the three scalar equations, test whether one pair $(x_1,x_2)$ satisfies all three, then express the same test as $b=x_1a_1+x_2a_2$ using the columns of $A$.
+
+### Answer to the stated confusion
+
+Matrix form and column span are connected by the column view of multiplication. The equation $Ax=b$ asks whether the entries of $x$ can serve as coefficients that combine the columns of $A$ into $b$. Therefore, existence of a solution vector $x$ is exactly membership of $b$ in the column span. Writing a system as $Ax=b$ only packages the equations; it does not guarantee that such coefficients exist.
+
+## Corrections I should retain
+
+1. State the three object dimensions in Problem 1.
+2. Complete the second verification in Problem 2.
+3. Correct the pivot descriptions in Problems 3.1 and 3.3.
+4. Rewrite Problem 5 as a two-way equivalence and justify both directions.
+5. Complete Problem 6 using both scalar equations and the column view.
+
+**Decision:** Correct these five points before the Week 1 review. Day 5 remains **Developing**.
 
 
 
