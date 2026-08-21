@@ -26,6 +26,10 @@ can be written as
 
 Because $Ax$ is a combination of the columns of $A$, $Ax=b$ has a solution exactly when $b$ belongs to the column span of $A$.
 
+<img src="./Day-05-linear-equations-and-synthesis.assets/image-20260821122445756.png" alt="image-20260821122445756" style="zoom: 33%;" />
+
+
+
 ## 2. Three possible outcomes
 
 A linear system can have:
