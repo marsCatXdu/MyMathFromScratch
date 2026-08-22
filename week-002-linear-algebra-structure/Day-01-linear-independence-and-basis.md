@@ -157,3 +157,5 @@ so it belongs to $S=\{[x,y,0]^T:x,y\in\mathbb{R}\}$. Conversely, every $[x,y,0]^
 **Decision:** Developing; correct these two items before Day 1 is accepted.
 
 ## Corrections I should retain
+
+![image-20260822184459450](./Day-01-linear-independence-and-basis.assets/image-20260822184459450.png)
