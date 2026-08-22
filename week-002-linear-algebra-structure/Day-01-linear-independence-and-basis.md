@@ -129,3 +129,31 @@ Included in answers.
 Record whether existence or uniqueness feels less secure, and identify the step causing the uncertainty.
 
 How to formally prove some vectors' linear combination fills a specific space?
+
+---
+
+## Review — 2026-08-22
+
+Problems 1–3 and the optional uniqueness proof are correct. The coefficient calculation in Problem 2 gives $c_1=3$ and $c_2=1$, and independence justifies uniqueness.
+
+For the question about proving that vectors fill a specific space, prove equality of two sets:
+
+1. show that every linear combination of the vectors belongs to the claimed space;
+2. take an arbitrary vector in the claimed space and show that coefficients can produce it.
+
+For Problem 3, let $e_1=[1,0,0]^T$ and $e_2=[0,1,0]^T$. Every combination is
+
+```math
+c_1e_1+c_2e_2=\begin{bmatrix}c_1\\c_2\\0\end{bmatrix},
+```
+
+so it belongs to $S=\{[x,y,0]^T:x,y\in\mathbb{R}\}$. Conversely, every $[x,y,0]^T\in S$ equals $xe_1+ye_2$. Therefore $\operatorname{span}(e_1,e_2)=S$. It does not fill $\mathbb{R}^3$ because, for example, $[0,0,1]^T\notin S$.
+
+### Required corrections
+
+1. Problem 4 asks for a dependence relation. Write one explicit equation using nonzero coefficients; saying that $c_3$ is free establishes dependence but does not supply the requested relation.
+2. In Problem 5, “$Ax$ is a linear combination of the columns of $A$” is always true and is not the exact solvability condition. State the condition in terms of $b$ and the column space.
+
+**Decision:** Developing; correct these two items before Day 1 is accepted.
+
+## Corrections I should retain
