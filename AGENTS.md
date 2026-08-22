@@ -183,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Wait for the learner to submit a Week 2 session, then review only that submitted scope. Update the Week 2 progress bar after each accepted session. Do not create material beyond Day 5 until this set has been reviewed.
+First, fetch the repository and work from the latest `main`. Week 2 Day 1 has been reviewed; wait for the two requested corrections in Problems 4 and 5. Accept Day 1 and fill its progress block only after both are correct. Do not create material beyond Day 5 until this set has been reviewed.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 
