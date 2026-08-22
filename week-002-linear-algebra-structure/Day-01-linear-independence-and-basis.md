@@ -159,3 +159,19 @@ so it belongs to $S=\{[x,y,0]^T:x,y\in\mathbb{R}\}$. Conversely, every $[x,y,0]^
 ## Corrections I should retain
 
 ![image-20260822184459450](./Day-01-linear-independence-and-basis.assets/image-20260822184459450.png)
+
+### Correction review — 2026-08-22
+
+Accepted. Problem 4 now gives the nontrivial dependence relation
+
+```math
+\begin{bmatrix}1\\0\end{bmatrix}
++\begin{bmatrix}0\\1\end{bmatrix}
+-\begin{bmatrix}1\\1\end{bmatrix}=0,
+```
+
+and Problem 5 correctly states that $Ax=b$ is solvable exactly when $b$ belongs to the span of the columns of $A$.
+
+Terminology to retain: because $A$ has two columns in $\mathbb{R}^3$, $\operatorname{Col}(A)$ is a subspace of $\mathbb{R}^3$ with dimension at most $2$. It should not be described as “at most $\mathbb{R}^2$.”
+
+**Decision:** Day 1 complete; linear independence and basis are **Reliable** at the current level.
