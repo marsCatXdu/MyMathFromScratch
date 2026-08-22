@@ -110,10 +110,22 @@ Subtract the two representations and use the definition of independence to show 
 
 Show the coefficient equations before classifying a set.
 
+![image-20260822180508938](./Day-01-linear-independence-and-basis.assets/image-20260822180508938.png)
+
+![image-20260822180535325](./Day-01-linear-independence-and-basis.assets/image-20260822180535325.png)
+
+![image-20260822180551155](./Day-01-linear-independence-and-basis.assets/image-20260822180551155.png)
+
+
+
 ## My reasoning
 
 For Problems 2–4, distinguish the span condition from the independence condition.
 
+Included in answers. 
+
 ## Confusions and questions
 
 Record whether existence or uniqueness feels less secure, and identify the step causing the uncertainty.
+
+How to formally prove some vectors' linear combination fills a specific space?
