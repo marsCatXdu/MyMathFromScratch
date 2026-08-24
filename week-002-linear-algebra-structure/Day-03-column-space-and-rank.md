@@ -113,4 +113,17 @@ Record the pivot indices before returning to the original matrix for a column-sp
 
 ## Review
 
+### Review — 2026-08-24
+
+Problems 1 and 2 are correct. The pivot indices, ranks, and column-space bases are correct, and the basis vectors are taken from the original matrices rather than the reduced matrices.
+
+Problem 3 correctly reduces the augmented system to a contradiction row, so $b\notin\operatorname{Col}(A)$. Problem 5 also gives the correct procedure: identify pivot indices after row reduction, then select columns with those indices from the original matrix.
+
+### Required corrections
+
+1. Problem 4 incorrectly concludes that the columns are dependent. A $4\times3$ matrix has three columns. If it has three pivots, every column is a pivot column, so the columns are linearly independent. Correct the conclusion and state why.
+2. In Problem 3, replace “the span of $A$” with “the span of the columns of $A$.” Write the precise identity $\operatorname{Col}(A)=\operatorname{span}(a_1,a_2,a_3)$, where $a_i$ are the columns of $A$.
+
+**Decision:** Developing; make these two corrections before Day 3 is accepted.
+
 ## Corrections I should retain
