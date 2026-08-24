@@ -127,3 +127,8 @@ Problem 3 correctly reduces the augmented system to a contradiction row, so $b\n
 **Decision:** Developing; make these two corrections before Day 3 is accepted.
 
 ## Corrections I should retain
+
+![image-20260824165814585](./Day-03-column-space-and-rank.assets/image-20260824165814585.png)
+
+
+
