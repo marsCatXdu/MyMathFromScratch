@@ -19,7 +19,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Inner products and norms | Reliable | Day 4 was correct on the first submitted attempt, including exact norm calculations, normalization, the general squared-distance expansion, the orthogonal Pythagorean identity, and an unfamiliar one-parameter orthogonality problem | 2026-08-21 |
 | Linear equations | Reliable | Week 1 retrieval independently solved and verified a new system and correctly used inconsistency to prove non-membership in a column span | 2026-08-21 |
 | Linear independence and basis | Reliable | Week 2 Day 1 correctly tested independence, separated independence from span, computed unique coordinates, supplied a nontrivial dependence relation, stated the exact column-space solvability condition, and completed the optional uniqueness proof | 2026-08-22 |
-| Subspaces | Not studied | Week 2 Day 2 prepared | — |
+| Subspaces | Developing | Week 2 Day 2 correctly checked the subspace conditions, parameterized a one-dimensional subspace, and constructed an addition counterexample; one false universal statement and one omitted span equality require correction | 2026-08-24 |
 | Column space and rank | Not studied | Week 2 Day 3 prepared | — |
 | Null space and solution structure | Not studied | Week 2 Days 4–5 prepared | — |
 
