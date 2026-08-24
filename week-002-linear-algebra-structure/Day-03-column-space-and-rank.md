@@ -99,6 +99,10 @@ is a basis for $\operatorname{Col}(A)$, and $\operatorname{rank}(A)=2$.
 
 ## My solutions
 
+![image-20260824164033150](./Day-03-column-space-and-rank.assets/image-20260824164033150.png)
+
+![image-20260824164055096](./Day-03-column-space-and-rank.assets/image-20260824164055096.png)
+
 ## My reasoning
 
 Record the pivot indices before returning to the original matrix for a column-space basis.
