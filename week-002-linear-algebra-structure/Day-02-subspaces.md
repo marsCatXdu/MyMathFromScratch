@@ -116,3 +116,17 @@ Write the requested conclusion explicitly as $S=\operatorname{span}([2,1,0]^T)$.
 ## Corrections I should retain
 
 ![image-20260824135541629](./Day-02-subspaces.assets/image-20260824135541629.png)
+
+### Correction review — 2026-08-24
+
+Accepted. Problem 2 now restricts the vector to $x>0$, so multiplication by a negative scalar produces a vector outside $T$. For future counterexamples, the most direct logical form is to exhibit one choice, such as $[1,0]^T\in T$ and $-1[1,0]^T\notin T$.
+
+Problem 3 now explicitly states
+
+```math
+S=\operatorname{span}\left(\begin{bmatrix}2\\1\\0\end{bmatrix}\right).
+```
+
+Minor typo in the additional closure check: the first coordinate of the sum is $2c_1+2c_2$, not $2c_1+2c_1$. This does not change the argument.
+
+**Decision:** Day 2 complete; subspaces are **Reliable** at the current level.
