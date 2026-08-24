@@ -80,6 +80,10 @@ is not a subspace because $[0,0]^T\notin T$.
 
 ## My solutions
 
+![image-20260824133338634](./Day-02-subspaces.assets/image-20260824133338634.png)
+
+![image-20260824133404870](./Day-02-subspaces.assets/image-20260824133404870.png)
+
 ## My reasoning
 
 For each classification, state which subspace conditions you checked. One counterexample is sufficient only when the answer is “not a subspace.”
