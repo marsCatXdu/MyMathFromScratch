@@ -114,3 +114,5 @@ Write the requested conclusion explicitly as $S=\operatorname{span}([2,1,0]^T)$.
 **Decision:** Developing; make these two short corrections before Day 2 is accepted.
 
 ## Corrections I should retain
+
+![image-20260824135541629](./Day-02-subspaces.assets/image-20260824135541629.png)
