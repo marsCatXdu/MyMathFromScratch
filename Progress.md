@@ -20,7 +20,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Linear equations | Reliable | Week 1 retrieval independently solved and verified a new system and correctly used inconsistency to prove non-membership in a column span | 2026-08-21 |
 | Linear independence and basis | Reliable | Week 2 Day 1 correctly tested independence, separated independence from span, computed unique coordinates, supplied a nontrivial dependence relation, stated the exact column-space solvability condition, and completed the optional uniqueness proof | 2026-08-22 |
 | Subspaces | Reliable | Week 2 Day 2 correctly checked the subspace conditions, represented a one-dimensional subspace as a span, and used valid counterexamples to disprove closure | 2026-08-24 |
-| Column space and rank | Not studied | Week 2 Day 3 prepared | — |
+| Column space and rank | Developing | Week 2 Day 3 correctly found pivot indices, ranks, and bases from original columns and used inconsistency to disprove column-space membership; the independence conclusion for a full-column-pivot matrix and one span expression require correction | 2026-08-24 |
 | Null space and solution structure | Not studied | Week 2 Days 4–5 prepared | — |
 
 ## Recurring issues
