@@ -130,5 +130,8 @@ Problem 3 correctly reduces the augmented system to a contradiction row, so $b\n
 
 ![image-20260824165814585](./Day-03-column-space-and-rank.assets/image-20260824165814585.png)
 
+### Correction review — 2026-08-24
 
+Accepted. Problem 3 now states the column-space identity using the columns of $A$ explicitly, and Problem 4 correctly concludes that three pivots in a $4\times3$ matrix make all three columns pivot columns and therefore linearly independent.
 
+**Decision:** Day 3 complete; column space and rank are **Reliable** at the current level.
