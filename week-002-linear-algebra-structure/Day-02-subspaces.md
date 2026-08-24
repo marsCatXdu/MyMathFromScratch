@@ -94,4 +94,23 @@ For each classification, state which subspace conditions you checked. One counte
 
 ## Review
 
+### Review — 2026-08-24
+
+Problems 1, 4, and 5 are correct. Problem 1 checks the three subspace conditions, Problem 4 directly verifies that the span is closed under the required operations, and Problem 5 gives a valid counterexample to closure under addition.
+
+Problem 3 has the correct parameterization:
+
+```math
+S=\left\{t\begin{bmatrix}2\\1\\0\end{bmatrix}:t\in\mathbb{R}\right\}.
+```
+
+Write the requested conclusion explicitly as $S=\operatorname{span}([2,1,0]^T)$. This equality is exactly what “write $S$ as the span of one vector” asks for.
+
+### Required corrections
+
+1. In Problem 2, the statement “for every $c<0$ and every $x\in T$, $cx\notin T$” is false. For example, $x=0$ remains in $T$. To disprove closure, use the existential statement: there exist $x\in T$ and $c\in\mathbb{R}$ such that $cx\notin T$. Your choice $x=[1,0]^T$ and $c=-1$ supplies the required counterexample.
+2. In Problem 3, add the explicit equality $S=\operatorname{span}([2,1,0]^T)$.
+
+**Decision:** Developing; make these two short corrections before Day 2 is accepted.
+
 ## Corrections I should retain
