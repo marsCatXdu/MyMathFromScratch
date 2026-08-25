@@ -6,6 +6,10 @@ You should be able to find a basis for a small matrix's null space and use the n
 
 ## 1. Null space
 
+> Null space of $A$ - All solution to the corresponding homogeneous system $Ax=0$. 
+>
+> So $\mathcal N(A)$ is the span of a basis of solutions 
+
 For $A\in\mathbb{R}^{m\times n}$, the **null space** is
 
 ```math
@@ -15,6 +19,8 @@ For $A\in\mathbb{R}^{m\times n}$, the **null space** is
 It is a subspace of $\mathbb{R}^n$. Notice the ambient space: the column space lies in $\mathbb{R}^m$, while the null space lies in $\mathbb{R}^n$.
 
 To find a basis for $\mathcal{N}(A)$, solve $Ax=0$, express pivot variables using free variables, and separate the resulting vector by its free parameters.
+
+> $A$ is $m×n$, it has $n$ columns. For the matrix-vector product $Ax$ to be defined, $x$ must have one entry for each column of $A$. 
 
 ## Worked example
 
@@ -44,7 +50,19 @@ Therefore
 \mathcal{N}(A)=\operatorname{span}\left(\begin{bmatrix}1\\-1\\1\end{bmatrix}\right).
 ```
 
+> ![image-20260824195704501](./Day-04-null-space-and-solutions.assets/image-20260824195704501.png)
+>
+> Another example: 
+>
+> <img src="./Day-04-null-space-and-solutions.assets/image-20260825201412328.png" alt="image-20260825201412328" style="zoom: 33%;" />
+
+
+
 ## 2. All solutions to $Ax=b$
+
+> This section explains the solution structure of the nonhomogeneous linear system $Ax=b$. Core principle:
+>
+> The complete set of all solutions to $Ax=b$ is equal to one particular solution plus the entire null space of $A$ (All solution to the corresponding homogeneous system $Ax=0$). 
 
 Suppose $x_p$ is one particular solution of $Ax=b$. If $z\in\mathcal{N}(A)$, then
 
@@ -52,18 +70,24 @@ Suppose $x_p$ is one particular solution of $Ax=b$. If $z\in\mathcal{N}(A)$, the
 A(x_p+z)=Ax_p+Az=b+0=b.
 ```
 
+> $x_p+z$ is always a solution: adding any null space vector to a particular solution still produces a valid solution. 
+
 Conversely, if $x$ is any solution, then
 
 ```math
 A(x-x_p)=Ax-Ax_p=b-b=0,
 ```
 
-so $x-x_p\in\mathcal{N}(A)$. Hence every solution has the form
+so $x-x_p\in\mathcal{N}(A)$. 
+
+Hence every solution has the form
 
 ```math
 x=x_p+z,
 \qquad z\in\mathcal{N}(A).
 ```
+
+> Reverse direction: every solution can be written as $x_p + z$
 
 A solvable system has a unique solution exactly when $\mathcal{N}(A)=\{0\}$.
 
@@ -90,6 +114,10 @@ A solvable system has a unique solution exactly when $\mathcal{N}(A)=\{0\}$.
 ---
 
 ## My solutions
+
+![image-20260826000217886](./Day-04-null-space-and-solutions.assets/image-20260826000217886.png)
+
+![image-20260826000234532](./Day-04-null-space-and-solutions.assets/image-20260826000234532.png)
 
 ## My reasoning
 
