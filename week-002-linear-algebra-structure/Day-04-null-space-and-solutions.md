@@ -129,4 +129,17 @@ Check every proposed null-space basis vector by multiplying it by $A$.
 
 ## Review
 
+### Review — 2026-08-26
+
+Problems 1–4 are correct. The null-space bases are obtained from the free variables correctly, Problem 2 connects a nonzero null-space vector with dependent columns, Problem 3 gives the complete solution family $[1+t,-t,t]^T$, and Problem 4 validly uses $\mathcal{N}(A)=\{0\}$ to establish uniqueness.
+
+Problem 5 correctly identifies $\mathbb{R}^3$ as the ambient space for the null space of a $2\times3$ matrix. The added explanations of the two directions in $x=x_p+z$ are also correct.
+
+### Required corrections
+
+1. In the first added example, the coefficient in $c[1,-1,1]^T$ is a scalar. Change $c\in\mathbb{R}^3$ to $c\in\mathbb{R}$.
+2. In Problem 5, change $\mathcal{N}(A)\in\mathbb{R}^n$ to $\mathcal{N}(A)\subseteq\mathbb{R}^n$. The null space is a set of vectors, not one vector belonging to $\mathbb{R}^n$.
+
+**Decision:** Developing; make these two type corrections before Day 4 is accepted.
+
 ## Corrections I should retain
