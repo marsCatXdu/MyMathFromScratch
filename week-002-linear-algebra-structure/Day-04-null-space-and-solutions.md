@@ -147,3 +147,11 @@ Problem 5 correctly identifies $\mathbb{R}^3$ as the ambient space for the null 
 ## Corrections I should retain
 
 ![image-20260826193431751](./Day-04-null-space-and-solutions.assets/image-20260826193431751.png)
+
+### Correction review — 2026-08-26
+
+Accepted. Problem 5 now correctly states $\mathcal{N}(A)\subseteq\mathbb{R}^n$ and identifies the null space as a set of vectors.
+
+The first requested correction is withdrawn. The original image already stated $c\in\mathbb{R}$; the reviewer misread the closing set brace as a superscript $3$. No learner correction was needed there.
+
+**Decision:** Day 4 complete; null space and solution structure are **Reliable** at the current level.
