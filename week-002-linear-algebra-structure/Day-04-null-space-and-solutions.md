@@ -138,8 +138,12 @@ Problem 5 correctly identifies $\mathbb{R}^3$ as the ambient space for the null 
 ### Required corrections
 
 1. In the first added example, the coefficient in $c[1,-1,1]^T$ is a scalar. Change $c\in\mathbb{R}^3$ to $c\in\mathbb{R}$.
+
+   > It is $c\in \mathbb R$. Your vision made a mistake. 
 2. In Problem 5, change $\mathcal{N}(A)\in\mathbb{R}^n$ to $\mathcal{N}(A)\subseteq\mathbb{R}^n$. The null space is a set of vectors, not one vector belonging to $\mathbb{R}^n$.
 
 **Decision:** Developing; make these two type corrections before Day 4 is accepted.
 
 ## Corrections I should retain
+
+![image-20260826193431751](./Day-04-null-space-and-solutions.assets/image-20260826193431751.png)
