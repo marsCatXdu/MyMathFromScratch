@@ -6,9 +6,9 @@ This phase develops the structure behind span and linear systems: independence, 
 
 ## Five-day target
 
-**Progress:** `███░░` — 3 of 5 sessions complete
+**Progress:** `████░` — 4 of 5 sessions complete
 
-**Current status:** Day 4 submitted; two type corrections pending.
+**Current status:** Day 4 accepted; Day 5 synthesis is next.
 
 At the finish line, you should be able to inspect a small matrix, determine its rank, find bases for its column space and null space, and use those structures to classify the solutions of $Ax=b$.
 
