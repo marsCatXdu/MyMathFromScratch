@@ -69,3 +69,4 @@ Proof and inequality skills are developed gradually along this mainline rather t
 
 - [Week 1 — Linear algebra foundations](week-001-linear-algebra-basics/README.md)
 - [Week 2 — Linear algebra structure](week-002-linear-algebra-structure/README.md)
+- [Week 3 preview — Projections and least squares](week-003-projections-and-least-squares/README.md) *(locked until Week 2 is complete)*
