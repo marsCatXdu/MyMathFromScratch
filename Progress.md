@@ -21,7 +21,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Linear independence and basis | Reliable | Week 2 Day 1 correctly tested independence, separated independence from span, computed unique coordinates, supplied a nontrivial dependence relation, stated the exact column-space solvability condition, and completed the optional uniqueness proof | 2026-08-22 |
 | Subspaces | Reliable | Week 2 Day 2 correctly checked the subspace conditions, represented a one-dimensional subspace as a span, and used valid counterexamples to disprove closure | 2026-08-24 |
 | Column space and rank | Reliable | Week 2 Day 3 correctly found pivot indices, ranks, and bases from original columns, used inconsistency to disprove column-space membership, and connected a pivot in every column with linear independence | 2026-08-24 |
-| Null space and solution structure | Developing | Week 2 Day 4 correctly found null-space bases, expressed all solutions as a particular solution plus the null space, and justified uniqueness; two scalar-versus-set notation errors require correction | 2026-08-26 |
+| Null space and solution structure | Reliable | Week 2 Day 4 correctly found null-space bases, expressed all solutions as a particular solution plus the null space, justified uniqueness, and distinguished a subspace from a vector in its ambient space | 2026-08-26 |
 
 ## Recurring issues
 
