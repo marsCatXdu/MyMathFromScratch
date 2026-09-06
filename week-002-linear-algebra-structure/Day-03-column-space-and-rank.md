@@ -34,6 +34,22 @@ Here $\dim(S)$ means the number of vectors in a basis for the subspace $S$.
 
 Use the original columns because row operations generally change the actual column vectors and therefore can change the column space.
 
+## 3. Full rank
+
+An $m\times n$ matrix can have at most $\min(m,n)$ pivots. It is **full rank** when it reaches this maximum:
+
+```math
+\operatorname{rank}(A)=\min(m,n).
+```
+
+The consequences depend on the matrix shape:
+
+- If $m\geq n$ and $\operatorname{rank}(A)=n$, then $A$ has **full column rank**. Every column is a pivot column, the columns are linearly independent, and $\mathcal N(A)=\{0\}$. Therefore $Ax=b$ has at most one solution, although some $b\in\mathbb R^m$ may be unreachable.
+- If $m\leq n$ and $\operatorname{rank}(A)=m$, then $A$ has **full row rank**. There is a pivot in every row and $\operatorname{Col}(A)=\mathbb R^m$. Therefore every $b\in\mathbb R^m$ is reachable, although solutions may be non-unique.
+- For a square matrix, full row rank and full column rank coincide, so every $b$ has exactly one solution.
+
+Thus “full rank” alone does not always mean both existence and uniqueness; the shape of the matrix matters.
+
 ## Worked example
 
 Let
