@@ -22,6 +22,7 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Subspaces | Reliable | Week 2 Day 2 correctly checked the subspace conditions, represented a one-dimensional subspace as a span, and used valid counterexamples to disprove closure | 2026-08-24 |
 | Column space and rank | Reliable | Week 2 synthesis correctly found a column-space basis from original pivot columns and, after correction, distinguished ambient space from rank and connected full row rank with reachability | 2026-09-06 |
 | Null space and solution structure | Reliable | Week 2 synthesis correctly found the null-space basis, verified rank-nullity, expressed all solutions as a particular solution plus the null space, classified uniqueness, and proved that exactly two solutions are impossible | 2026-09-06 |
+| Projection onto a line | Reliable | Week 3 Day 1 correctly computed projections and residuals, verified orthogonality, retained the ambient space, derived the coefficient, and proved invariance under rescaling the spanning vector | 2026-09-06 |
 
 ## Recurring issues
 
@@ -33,6 +34,7 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 - Day 3 again blurred a vector with one of its scalar components: $Ax$ belongs to the column span, while $(Ax)_i$ is a scalar. Continue explicit type checks.
 - Day 5 initially treated compatible dimensions as evidence of solvability and described pivots by rows rather than variable columns; continue separating definedness, existence, and uniqueness.
 - Week 2 synthesis initially inferred the ambient space from the number of basis vectors and omitted the reachability consequence of full row rank. Ambient space and full-rank definitions were added; retest both distinctions in later matrix problems.
+- Week 3 Day 1 initially labelled the residual as the projection in an annotation, although the submitted problems consistently distinguished them. Continue naming $p=cu$ and $r=b-p$ explicitly.
 
 ## Weekly record
 

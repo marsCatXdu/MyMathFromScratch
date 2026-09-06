@@ -100,4 +100,24 @@ Separate the projection $p$ from the residual $r=b-p$, and verify $u^Tr=0$.
 
 ## Review
 
+### Review — 2026-09-06
+
+All five core problems are correct. Problems 1 and 2 compute the projection and residual correctly, verify orthogonality, and identify $\mathbb R^3$ as the ambient space in the three-coordinate case. Problem 3 correctly shows that the factors introduced by replacing $u$ with $3u$ cancel. Problems 4 and 5 correctly derive the coefficient, identify the division by $u^Tu$ as the step requiring $u\neq0$, and state that the shortened formula is valid when $u^Tu=1$.
+
+Two statements in the earlier annotations need clarification, but the later homework already uses the correct concepts:
+
+- In the first diagram, $b-cu$ is the residual $r$, not the projection. The projection is $cu$.
+- In Problem 1, $b$ is not orthogonal to any **nonzero** vector in $L$. The zero vector belongs to $L$ and is orthogonal to every vector.
+
+For the optional uniqueness proof, let $p=cu$ be the projection and let $au$ be any other point on the line. The lesson established
+
+```math
+\lVert b-au\rVert_2^2
+=\lVert b-p\rVert_2^2+(c-a)^2\lVert u\rVert_2^2.
+```
+
+Because $u\neq0$, $\lVert u\rVert_2^2>0$. If $a\neq c$, the second term is strictly positive, so $au$ is strictly farther from $b$ than $p$. Equality occurs only when $a=c$, proving that the closest point is unique.
+
+**Decision:** Day 1 complete; projection onto a line is **Reliable** at the current level.
+
 ## Corrections I should retain
