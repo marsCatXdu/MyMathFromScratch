@@ -6,9 +6,9 @@ This phase develops the structure behind span and linear systems: independence, 
 
 ## Five-day target
 
-**Progress:** `████░` — 4 of 5 sessions complete
+**Progress:** `█████` — 5 of 5 sessions complete
 
-**Current status:** Day 4 accepted; Day 5 synthesis is next.
+**Current status:** Complete. All five sessions, including the structural synthesis, are accepted.
 
 At the finish line, you should be able to inspect a small matrix, determine its rank, find bases for its column space and null space, and use those structures to classify the solutions of $Ax=b$.
 
@@ -20,4 +20,4 @@ At the finish line, you should be able to inspect a small matrix, determine its 
 4. [Null space and solution structure](Day-04-null-space-and-solutions.md)
 5. [Structural synthesis](Day-05-structural-synthesis.md)
 
-Complete them in order. A submitted day is reviewed before its progress block is filled.
+Week 2 is complete. Continue with [Week 3 — Projections and Least Squares](../week-003-projections-and-least-squares/README.md).

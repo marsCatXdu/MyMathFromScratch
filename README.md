@@ -46,15 +46,15 @@ The initial phase builds the linear algebra, calculus, and proof skills needed f
 
 These are coarse phases rather than equally sized calendar units. Only the current phase is designed in detail; later phases remain adjustable.
 
-**Course position:** `██░░░░░░░░` — Phase 2 of 10 in progress
+**Course position:** `███░░░░░░░` — Phase 3 of 10 in progress
 
-**Current unit:** `████░` — Week 2: 4 of 5 sessions complete; Day 5 is next
+**Current unit:** `░░░░░` — Week 3: 0 of 5 sessions complete; Day 1 is next
 
 | Phase | Mainline | Status |
 |---:|---|---|
 | 1 | Linear algebra foundations: vectors, matrices, norms, and linear systems | **Complete** |
-| 2 | Linear algebra structure: independence, basis, subspaces, rank, and null spaces | **In progress** |
-| 3 | Orthogonality, projections, and least squares | Planned |
+| 2 | Linear algebra structure: independence, basis, subspaces, rank, and null spaces | **Complete** |
+| 3 | Orthogonality, projections, and least squares | **In progress** |
 | 4 | Eigenvalues, quadratic forms, and positive semidefinite matrices | Planned |
 | 5 | Functions, graphs, composition, and affine mappings | Planned |
 | 6 | Derivatives, gradients, Jacobians, Hessians, and local approximation | Planned |
@@ -69,4 +69,4 @@ Proof and inequality skills are developed gradually along this mainline rather t
 
 - [Week 1 — Linear algebra foundations](week-001-linear-algebra-basics/README.md)
 - [Week 2 — Linear algebra structure](week-002-linear-algebra-structure/README.md)
-- [Week 3 preview — Projections and least squares](week-003-projections-and-least-squares/README.md) *(locked until Week 2 is complete)*
+- [Week 3 — Projections and least squares](week-003-projections-and-least-squares/README.md)

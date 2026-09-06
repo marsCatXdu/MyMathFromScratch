@@ -129,3 +129,9 @@ The argument in Problem 6 correctly uses the structure $x=x_p+z$ with $z\in\math
 ## Corrections I should retain
 
 ![image-20260906181934204](./Day-05-structural-synthesis.assets/image-20260906181934204.png)
+
+### Correction review — 2026-09-06
+
+Accepted. Problem 2 now identifies $\mathbb R^3$ as the ambient space. Problem 5.2 now correctly uses three pivots in a $3\times5$ matrix to conclude that every row contains a pivot, $\operatorname{Col}(B)=\mathbb R^3$, and every $b\in\mathbb R^3$ is reachable. It also correctly retains $\dim\mathcal N(B)=2$, so the solutions are non-unique.
+
+**Decision:** Day 5 and Week 2 complete; linear algebra structure is **Reliable** at the current level.

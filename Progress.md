@@ -20,8 +20,8 @@ This file records durable evidence of learning. Update it during each weekly rev
 | Linear equations | Reliable | Week 1 retrieval independently solved and verified a new system and correctly used inconsistency to prove non-membership in a column span | 2026-08-21 |
 | Linear independence and basis | Reliable | Week 2 Day 1 correctly tested independence, separated independence from span, computed unique coordinates, supplied a nontrivial dependence relation, stated the exact column-space solvability condition, and completed the optional uniqueness proof | 2026-08-22 |
 | Subspaces | Reliable | Week 2 Day 2 correctly checked the subspace conditions, represented a one-dimensional subspace as a span, and used valid counterexamples to disprove closure | 2026-08-24 |
-| Column space and rank | Reliable | Week 2 Day 3 correctly found pivot indices, ranks, and bases from original columns, used inconsistency to disprove column-space membership, and connected a pivot in every column with linear independence | 2026-08-24 |
-| Null space and solution structure | Reliable | Week 2 Day 4 correctly found null-space bases, expressed all solutions as a particular solution plus the null space, justified uniqueness, and distinguished a subspace from a vector in its ambient space | 2026-08-26 |
+| Column space and rank | Reliable | Week 2 synthesis correctly found a column-space basis from original pivot columns and, after correction, distinguished ambient space from rank and connected full row rank with reachability | 2026-09-06 |
+| Null space and solution structure | Reliable | Week 2 synthesis correctly found the null-space basis, verified rank-nullity, expressed all solutions as a particular solution plus the null space, classified uniqueness, and proved that exactly two solutions are impossible | 2026-09-06 |
 
 ## Recurring issues
 
@@ -32,9 +32,11 @@ Record patterns such as dimension errors, unjustified algebraic steps, sign mist
 - Formal proof remains tiring and fragile when zero-coordinate cases or uniqueness arguments appear; revisit through short, scaffolded proof exercises rather than repeating the full Day 2 proof immediately.
 - Day 3 again blurred a vector with one of its scalar components: $Ax$ belongs to the column span, while $(Ax)_i$ is a scalar. Continue explicit type checks.
 - Day 5 initially treated compatible dimensions as evidence of solvability and described pivots by rows rather than variable columns; continue separating definedness, existence, and uniqueness.
+- Week 2 synthesis initially inferred the ambient space from the number of basis vectors and omitted the reachability consequence of full row rank. Ambient space and full-rank definitions were added; retest both distinctions in later matrix problems.
 
 ## Weekly record
 
 | Week | Outcome | Main weakness | Next action |
 |---|---|---|---|
 | 1 | Complete | All five foundational topics were retained in cumulative problems; minor notation and arithmetic slips were corrected | Begin Phase 2 with linear independence and basis; keep proof tasks short and scaffolded |
+| 2 | Complete | Structural calculations and proofs were sound; ambient space and the different consequences of full row versus full column rank required clarification | Begin Week 3 with projection onto a line; retest object spaces when projection matrices appear |

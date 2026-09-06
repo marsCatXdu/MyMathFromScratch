@@ -121,7 +121,7 @@ Week 1 has already been created and pushed to `main`. It deliberately limits sco
 4. inner products and norms;
 5. linear equations and synthesis.
 
-Week 1 and Phase 1 are complete. The cumulative review supports **Reliable** status for vector notation and dimensions, linear combinations and span, matrix-vector multiplication, inner products and norms, and linear equations. Week 2 Days 1–4 are accepted, and Day 5 remains. At the learner's explicit request, a five-session Week 3 preview on projections and least squares is prepared. It remains locked until Week 2 Day 5 is accepted and may be revised using that evidence.
+Weeks 1 and 2 are complete. The Week 2 synthesis supports **Reliable** status at the current level for independence, basis, subspaces, rank, column space, null space, rank-nullity, and solution classification. Ambient space and full rank required brief just-in-time additions and should be retested later. Week 3 on projections and least squares is active, with Day 1 next.
 
 `main` contains the Week 1 material and its GitHub-compatible math-formatting corrections. Always fetch the current remote state instead of assuming the local checkout is current.
 
@@ -183,7 +183,7 @@ Never rewrite or discard learner commits merely to make history cleaner.
 
 ## 10. Immediate task for Codex
 
-First, fetch the repository and work from the latest `main`. Week 2 Day 4 is accepted. Wait for the learner to submit Day 5, then review only that scope. After acceptance, revise the Week 3 preview only if the synthesis evidence requires it, unlock Week 3, and update the phase and progress records. Do not prepare material beyond Week 3.
+First, fetch the repository and work from the latest `main`. Weeks 1 and 2 are complete, and Week 3 is active. Wait for the learner to submit Week 3 Day 1, then review only that scope. Retest ambient-space awareness and the distinction between full row and full column rank when they naturally recur. Do not prepare material beyond Week 3.
 
 When new work is pushed, review only the submitted scope, add precise feedback, update `Progress.md`, validate the exact diff, and commit the review directly to `main`. The first major curriculum decision should follow the completed Week 1 review.
 

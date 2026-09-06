@@ -1,10 +1,10 @@
 # Week 3 — Projections and Least Squares
 
-> **Preview status.** This week is prepared for inspection but remains locked until Week 2 Day 5 is accepted. Week 2 evidence may still cause small revisions before study begins.
-
 ## Five-day target
 
 **Progress:** `░░░░░` — 0 of 5 sessions complete
+
+**Current status:** Active; Day 1 is next.
 
 At the finish line, you should be able to project a vector onto a line or subspace, construct a small orthonormal basis, solve a least-squares problem, and explain why the residual is orthogonal to the model space.
 
@@ -16,4 +16,4 @@ At the finish line, you should be able to project a vector onto a line or subspa
 4. [Least squares and normal equations](Day-04-least-squares.md)
 5. [Least-squares synthesis](Day-05-least-squares-synthesis.md)
 
-Complete them in order after the preview is unlocked.
+Complete them in order. A submitted day is reviewed before its progress block is filled.
