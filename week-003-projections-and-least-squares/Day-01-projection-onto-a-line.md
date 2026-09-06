@@ -12,6 +12,10 @@ Let $u\in\mathbb{R}^n$ be nonzero and let $L=\operatorname{span}(u)$. Every vect
 u^T(b-cu)=0.
 ```
 
+> Note:
+>
+> ![image-20260906193258645](./Day-01-projection-onto-a-line.assets/image-20260906193258645.png)
+
 Solving for $c$ gives
 
 ```math
@@ -44,6 +48,10 @@ The two terms are orthogonal, so
 ```
 
 Thus $p$ is the closest point on the line.
+
+> Note:
+>
+> ![image-20260906200336685](./Day-01-projection-onto-a-line.assets/image-20260906200336685.png)
 
 ## Worked example
 
@@ -79,6 +87,8 @@ Use the squared-distance decomposition above to prove that the closest point is 
 ---
 
 ## My solutions
+
+![image-20260906223949403](./Day-01-projection-onto-a-line.assets/image-20260906223949403.png)
 
 ## My reasoning
 
