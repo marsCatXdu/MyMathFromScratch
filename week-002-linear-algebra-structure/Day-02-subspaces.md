@@ -4,6 +4,18 @@
 
 You should be able to test whether a subset of $\mathbb{R}^n$ is a subspace and explain why every span is a subspace.
 
+## 0. Ambient space
+
+The **ambient space** is the larger vector space in which the vectors under discussion live. If every vector has three coordinates, the natural ambient space is $\mathbb{R}^3$.
+
+For example,
+
+```math
+S=\operatorname{span}\left(\begin{bmatrix}2\\1\\0\end{bmatrix}\right)
+```
+
+is a one-dimensional line, but its ambient space is $\mathbb{R}^3$. Thus $\dim(S)=1$ while $S\subseteq\mathbb{R}^3$. Do not infer the ambient space from the number of basis vectors: for $A\in\mathbb{R}^{m\times n}$, every column has $m$ entries, so $\operatorname{Col}(A)\subseteq\mathbb{R}^m$ even when $\operatorname{rank}(A)<m$.
+
 ## 1. The subspace test
 
 A subset $S\subseteq\mathbb{R}^n$ is a **subspace** when it satisfies all three conditions:
