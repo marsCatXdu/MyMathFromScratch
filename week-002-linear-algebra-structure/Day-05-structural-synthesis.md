@@ -127,3 +127,5 @@ The argument in Problem 6 correctly uses the structure $x=x_p+z$ with $z\in\math
 **Decision:** Developing; make these two corrections before Day 5 and Week 2 are accepted.
 
 ## Corrections I should retain
+
+![image-20260906181934204](./Day-05-structural-synthesis.assets/image-20260906181934204.png)
