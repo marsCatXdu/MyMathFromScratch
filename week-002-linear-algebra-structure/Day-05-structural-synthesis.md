@@ -92,6 +92,12 @@ Prove that $\mathcal{N}(A)$ is a subspace by checking the zero vector, closure u
 
 ## My solutions
 
+![image-20260906173216390](./Day-05-structural-synthesis.assets/image-20260906173216390.png)
+
+![image-20260906173222904](./Day-05-structural-synthesis.assets/image-20260906173222904.png)
+
+![image-20260906173228064](./Day-05-structural-synthesis.assets/image-20260906173228064.png)
+
 ## My reasoning
 
 For each conclusion, name the structure that justifies it: column space for existence and null space for uniqueness.
