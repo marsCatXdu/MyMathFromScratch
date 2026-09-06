@@ -108,4 +108,22 @@ For each conclusion, name the structure that justifies it: column space for exis
 
 ## Review
 
+### Review — 2026-09-06
+
+Problems 1, 3, 4, and 6 are correct. The row reduction identifies columns 1 and 2 as pivot columns and column 3 as free, the null-space basis $[2,-1,1]^T$ is correct, and rank-nullity is verified as $2+1=3$. For $b=[1,1,2]^T$, both approaches correctly establish solvability and give the complete family
+
+```math
+x=\begin{bmatrix}-1\\1\\0\end{bmatrix}
++t\begin{bmatrix}2\\-1\\1\end{bmatrix},\qquad t\in\mathbb R.
+```
+
+The argument in Problem 6 correctly uses the structure $x=x_p+z$ with $z\in\mathcal N(A)$: a solvable system has one solution when the null space is trivial and infinitely many when it is nontrivial. The optional proof also correctly verifies all three subspace conditions for $\mathcal N(A)$.
+
+### Required corrections
+
+1. Problem 2 gives the wrong ambient space. Since $A\in\mathbb R^{3\times3}$, every column of $A$ lies in $\mathbb R^3$, so $\operatorname{Col}(A)\subseteq\mathbb R^3$. Replace $\mathbb R^2$ with $\mathbb R^3$.
+2. In Problem 5.2, explicitly answer the reachability question. A $3\times5$ matrix with three pivots has a pivot in every row, hence rank $3$ and $\operatorname{Col}(B)=\mathbb R^3$. Therefore every $b\in\mathbb R^3$ is reachable. Your conclusion that no solution can be unique is correct because $\dim\mathcal N(B)=5-3=2$.
+
+**Decision:** Developing; make these two corrections before Day 5 and Week 2 are accepted.
+
 ## Corrections I should retain
