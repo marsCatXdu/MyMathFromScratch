@@ -14,6 +14,12 @@ The method is called **Gram–Schmidt**. For two vectors, its whole structure is
 
 > **Optional context — not required now.** Orthonormal bases make later projection calculations simpler: components along different basis directions do not interfere with one another. Day 3 will use this to project onto a subspace rather than just a line.
 
+
+
+> Jingwei Note:
+>
+> Key: Orthonormal basis: Take two independent $a_1,a_2\in\mathbb R^n$ and construct a different basis $q_1,q_2$ (which are perpendicular vectors with length $1$) for the same subspace. The method for it is Gram-Schmidt - normalize $a_1$, subtract the $a_2$'s projection onto the first direction, then normalize the residual. 
+
 ## 2. Orthogonal, unit, and orthonormal
 
 Two vectors are **orthogonal** when their inner product is zero: $u^Tv=0$. A **unit vector** has length $1$. “Orthonormal” requires both: different vectors are orthogonal, and each vector has length $1$.
@@ -162,6 +168,8 @@ Prove that every orthonormal set is linearly independent by isolating an arbitra
 ---
 
 ## My solutions
+
+![image-20260907212922367](./Day-02-gram-schmidt.assets/image-20260907212922367.png)
 
 ## My reasoning
 
