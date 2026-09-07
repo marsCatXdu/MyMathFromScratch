@@ -107,6 +107,8 @@ All five core problems are correct. Problems 1 and 2 compute the projection and 
 Two statements in the earlier annotations need clarification, but the later homework already uses the correct concepts:
 
 - In the first diagram, $b-cu$ is the residual $r$, not the projection. The projection is $cu$.
+
+  > Jingwei Note: There's no problem, your vision made a mistake.
 - In Problem 1, $b$ is not orthogonal to any **nonzero** vector in $L$. The zero vector belongs to $L$ and is orthogonal to every vector.
 
 For the optional uniqueness proof, let $p=cu$ be the projection and let $au$ be any other point on the line. The lesson established
