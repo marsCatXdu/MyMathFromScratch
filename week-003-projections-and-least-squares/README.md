@@ -2,9 +2,9 @@
 
 ## Five-day target
 
-**Progress:** `█░░░░` — 1 of 5 sessions complete
+**Progress:** `██░░░` — 2 of 5 sessions complete
 
-**Current status:** Day 1 accepted; Day 2 is next.
+**Current status:** Days 1–2 accepted; Day 3 is next.
 
 At the finish line, you should be able to project a vector onto a line or subspace, construct a small orthonormal basis, solve a least-squares problem, and explain why the residual is orthogonal to the model space.
 

@@ -48,7 +48,7 @@ These are coarse phases rather than equally sized calendar units. Only the curre
 
 **Course position:** `███░░░░░░░` — Phase 3 of 10 in progress
 
-**Current unit:** `█░░░░` — Week 3: 1 of 5 sessions complete; Day 2 is next
+**Current unit:** `██░░░` — Week 3: 2 of 5 sessions complete; Day 3 is next
 
 | Phase | Mainline | Status |
 |---:|---|---|

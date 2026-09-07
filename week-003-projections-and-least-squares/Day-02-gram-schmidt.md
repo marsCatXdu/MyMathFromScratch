@@ -207,3 +207,8 @@ Keep your existing argument. Add the reverse direction by expressing both $a_1$ 
 
 ![image-20260907220448662](./Day-02-gram-schmidt.assets/image-20260907220448662.png)
 
+### Correction review — 2026-09-07
+
+Accepted. The correction explicitly establishes both containment directions. For the reverse direction, you correctly recover $a_1=\lVert a_1\rVert_2q_1$ and $a_2=\lVert w_2\rVert_2q_2+(q_1^Ta_2)q_1$, identify their coefficients as scalars, and explain why every linear combination of $a_1,a_2$ belongs to $\operatorname{span}(q_1,q_2)$. Combined with your original direction, this proves equality of the spans.
+
+**Decision:** Day 2 complete; Gram–Schmidt and orthonormal bases are **Reliable** at the current level. The optional independence proof remains uncompleted and is not a progression requirement.
