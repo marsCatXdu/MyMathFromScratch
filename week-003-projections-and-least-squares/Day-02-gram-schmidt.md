@@ -181,4 +181,26 @@ Track which vectors are normalized and verify every denominator is nonzero befor
 
 ## Review
 
+### Review — 2026-09-07
+
+Your summary note correctly identifies the purpose and sequence of Gram–Schmidt. Problems 1–4 are accepted: the normalization, projection, residual, and orthogonality calculations are correct. In Problem 2, $q_2=[1,2,-1]^T/\sqrt6$ and both unit-length checks are correct. In Problem 3, the zero residual correctly identifies the dependent-input failure: its norm is zero, so it cannot be normalized.
+
+In Problem 4, the cancellation uses $q_1^Tq_1=1$. The intermediate expression is $q_1^Ta_2-(q_1^Ta_2)(q_1^Tq_1)$. Your result is correct; remember which assumption justifies this simplification.
+
+### Required correction — Problem 5
+
+Your reasoning establishes
+
+```math
+\operatorname{span}(q_1,q_2)\subseteq\operatorname{span}(a_1,a_2).
+```
+
+Every combination of $q_1,q_2$ can indeed be expressed using $a_1,a_2$. But having the same form of linear combination does not establish that every combination of $a_1,a_2$ is obtainable. The reverse containment is still missing.
+
+Keep your existing argument. Add the reverse direction by expressing both $a_1$ and $a_2$ using $q_1,q_2$. Hint: rearrange $q_1=a_1/\lVert a_1\rVert_2$ and $q_2=w_2/\lVert w_2\rVert_2$, then substitute into $a_2=(q_1^Ta_2)q_1+w_2$. Explain why this also covers an arbitrary linear combination of $a_1,a_2$.
+
+> **Optional proof hint — not required for progression.** Begin with $c_1q_1+\cdots+c_kq_k=0$. Choose any index $j$ and multiply by $q_j^T$. Expand the inner products: which terms vanish, and what does the remaining term tell you about $c_j$?
+
+**Decision:** Developing; only the reverse-containment argument in Problem 5 is required before Day 2 is accepted. Week 3 remains at 1/5.
+
 ## Corrections I should retain
