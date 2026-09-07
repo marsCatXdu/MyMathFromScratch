@@ -204,3 +204,6 @@ Keep your existing argument. Add the reverse direction by expressing both $a_1$ 
 **Decision:** Developing; only the reverse-containment argument in Problem 5 is required before Day 2 is accepted. Week 3 remains at 1/5.
 
 ## Corrections I should retain
+
+![image-20260907220448662](./Day-02-gram-schmidt.assets/image-20260907220448662.png)
+
